@@ -1,0 +1,183 @@
+.headerimg {
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+}
+
+.dreamjob {
+  color: aliceblue;
+  padding-top: 100px;
+  text-align: center;
+  ;
+}
+
+.description {
+  color: aliceblue;
+  text-align: center;
+
+
+}
+
+.title {
+  color: aliceblue;
+  text-align: center;
+}
+
+.listgroup_ {
+  justify-content: center;
+
+
+
+
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.stat-card {
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.stat-card b {
+  display: inline;
+  font-size: 24px;
+  color: aliceblue;
+}
+
+.stat-card div {
+  font-size: 16px;
+  color: #fff8f8;
+}
+
+.own_container {
+  background-color: black;
+  display: flex;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.spotify {
+  height: 50px;
+  display: flex;
+
+  margin-top: 20px;
+}
+
+.slack {
+  height: 50px;
+  display: flex;
+  padding-left: 50px;
+
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.adobe {
+  height: 50px;
+  display: flex;
+
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+.asana {
+  height: 50px;
+  display: flex;
+
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+.linear {
+  height: 50px;
+  display: flex;
+
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.aviable {
+  background-color: #fff8f8;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.paragraph {
+  background-color: #fff8f8;
+  padding-top: 10px;
+  padding-left: 50px;
+
+
+}
+
+.search-job {
+  background-color: #309689;
+}
+
+.veiw {
+  padding-left: 700px;
+  color: #309689;
+}
+
+.minute {
+  background-color: transparent;
+  color: #309689;
+  border-color: aliceblue;
+  margin-left: 50px;
+  height: 40px;
+
+}
+
+.wishlist {
+  margin-left: 1040px;
+}
+
+.forward {
+  margin-left: 50px;
+}
+
+.descriptio_forwrd {
+  padding-left: 20px;
+}
+
+.hotel-bag {
+  height: 30px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+
+}
+
+.clock {
+  margin-left: 20px;
+}.wallet{
+    margin-left: 20px;
+
+}.map{
+      margin-left: 20px;
+
+}.job_detail1{
+  margin-left: 570px;
+  background-color: #309689;
+}.job_detail2{
+  margin-left: 620px;
+  background-color: #309689;
+}.job_detail3{
+  margin-left: 630px;
+  background-color: #309689;
+}.job_detail4{
+  margin-left: 630px;
+  background-color: #309689;
+}.job_detail5{
+  margin-left: 630px;
+  background-color: #309689;
+}
