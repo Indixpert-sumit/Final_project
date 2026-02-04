@@ -169,7 +169,7 @@
   margin-left: 570px;
   background-color: #309689;
 }.job_detail2{
-  margin-left: 620px;
+  margin-left: 570px;
   background-color: #309689;
 }.job_detail3{
   margin-left: 630px;
@@ -180,4 +180,12 @@
 }.job_detail5{
   margin-left: 630px;
   background-color: #309689;
+}.media{
+  margin-left: 30px;
+    height: 30px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}.parttime{
+    margin-left: 70px;
+
 }

@@ -100,10 +100,10 @@ const Header = () => {
   <img src={regional} alt="regional company logo" />
  <b>Regional Creative Facilitator</b>
  <p className='descriptio_forwrd'>Wisozk - Becker Co</p>
-
+ 
 </div>
-<div><img className='hotel-bag' src={breifcase} alt="hotel bag" /> Media
-<img  className='clock'src={clock} alt="clock image"  />part time
+<div><img className='media' src={breifcase} alt="hotel bag" /> Media
+<img  className='parttime'src={clock} alt="clock image"  />part time
  <img className='wallet' src={wallet} alt="wallet image" />$28000-$32000
  <img className='map' src={map} alt="map" />Los- Angeles, USA
  <Button className='job_detail2'>job details</Button>
