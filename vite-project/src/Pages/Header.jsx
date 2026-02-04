@@ -19,11 +19,24 @@ import regional from './../assets/regional.png'
 import internal from './../assets/internal.png'
 import district from './../assets/district.png'
 import corporate from './../assets/corporate.png'
+import agriculture from './../assets/agriculture.png'
+import metal from './../assets/metal.png'
+import shoppingbag from './../assets/shoppingbag.png'
+import constructor from './../assets/constructor.png'
+import hotelimg from './../assets/hotelimg.png'
+import education from './../assets/education.png'
+import finance from './../assets/finance.png'
+import transport from './../assets/transport.png'
+import defaultimg from './../assets/defaultimg.png'
+
+
+
 
 
 
 const Header = () => {
   return (
+    
     <div
       className="headerimg"
       style={{ backgroundImage: `url(${Headerimg})` }}
@@ -154,6 +167,77 @@ const Header = () => {
  <Button className='job_detail5'>job details</Button>
  </div>
  
+
+
+ <div className='hero_section2'>
+  <h1 className='hero-section_heading'>Browse by Category</h1>
+<p className='hero_section_paragraph'>At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum id scelerisque</p>
+   
+   <section class="categories">
+  <div class="card">
+    <div><img src={agriculture} alt="agriculture" /></div>
+    <h3>Agriculture</h3>
+    <span>1254 jobs</span>
+  </div>
+
+  <div class="card">
+    <div ><img src={metal} alt="metal" /></div>
+    <h3>Metal Production</h3>
+    <span>816 jobs</span>
+  </div>
+
+  <div class="card">
+    <div><img src={shoppingbag} alt="shoppingbag" /></div>
+    <h3>Commerce</h3>
+    <span>2082 jobs</span>
+  </div>
+
+  <div class="card">
+    <div><img src={constructor} alt="constructor" /></div>
+    <h3>Construction</h3>
+    <span>1520 jobs</span>
+  </div>
+
+  <div class="card">
+    <div><img src={hotelimg} alt="hotelimg" /></div>
+    <h3>Hotels & Tourism</h3>
+    <span>1022 jobs</span>
+  </div>
+
+  <div class="card">
+    <div> <img src={education} alt="education" /></div>
+    <h3>Education</h3>
+    <span>1496 jobs</span>
+  </div>
+
+  <div class="card">
+    <div><img src={finance} alt="finance" /></div>
+    <h3>Financial Services</h3>
+    <span>1529 jobs</span>
+  </div>
+
+  <div class="card">
+    <div><img src={transport} alt="transport" /></div>
+    <h3>Transport</h3>
+    <span>1244 jobs</span>
+  </div>
+</section>
+   
+   
+   
+   
+   </div>
+   <div className='hero-section-2'>
+    <img className='default-img'src={defaultimg} alt="defaultimg"   /> 
+<h1 className="hero-text">
+    Good Life Begins With <br /> A Good Company </h1>
+  <br />
+  <p className='herosection_para'>hello</p>
+   
+   </div>
+   
+  
+
 
   </div>
     </div>
