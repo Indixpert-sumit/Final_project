@@ -1,7 +1,7 @@
 import './../sass/Header.css'
 import Headerimg from './../assets/Header.png'
 import ListGroup from 'react-bootstrap/ListGroup';
-import { Button, Container } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 import breifcase from './../assets/breifcase.png'
 import collabeicon from './../assets/collabeicon.png'
 import officeimg from './../assets/officeimg.png'
@@ -28,6 +28,8 @@ import education from './../assets/education.png'
 import finance from './../assets/finance.png'
 import transport from './../assets/transport.png'
 import defaultimg from './../assets/defaultimg.png'
+import banner from './../assets/banner.png'
+import news1 from './../assets/news1.png'
 
 
 
@@ -227,16 +229,203 @@ const Header = () => {
    
    
    </div>
-   <div className='hero-section-2'>
-    <img className='default-img'src={defaultimg} alt="defaultimg"   /> 
-<h1 className="hero-text">
-    Good Life Begins With <br /> A Good Company </h1>
-  <br />
-  <p className='herosection_para'>hello</p>
-   
-   </div>
-   
+   <div className="hero">
+  <div className="hero-img">
+    <img src={defaultimg} alt="hero" />
+  </div>
+
+  <div className="hero-content">
+    <h1>
+      Good Life Begins With <br />A Good Company
+    </h1>
+    <p>
+      Ultricies purus dolor viverra in iaculis sit euismod.
+      Aliquam erat volutpat blandit elit mattis.
+    </p>
+
+    <div className="hero-buttons">
+      <button className="primary-btn">Search Job</button>
+      <a href="#" className="link-btn">Learn more</a>
+    </div>
+  </div>
+</div>
+
+      <Container>
+        <Row className="text-center text-md-start">
+          
+          <Col md={4} className="mb-4 mb-md-0">
+            <h2 className="stats-number">12k+</h2>
+            <h5 className="fw-semibold">Clients worldwide</h5>
+            <p className="text-muted">
+              At eu lobortis pretium tincidunt amet lacus ut aenean aliquet.
+              Blandit a massa elementum.
+            </p>
+          </Col>
+
+          <Col md={4} className="mb-4 mb-md-0">
+            <h2 className="stats-number">20k+</h2>
+            <h5 className="fw-semibold">Active resume</h5>
+            <p className="text-muted">
+              At eu lobortis pretium tincidunt amet lacus ut aenean aliquet.
+              Blandit a massa elementum.
+            </p>
+          </Col>
+
+          <Col md={4}>
+            <h2 className="stats-number">18k+</h2>
+            <h5 className="fw-semibold">Companies</h5>
+            <p className="text-muted">
+              At eu lobortis pretium tincidunt amet lacus ut aenean aliquet.
+              Blandit a massa elementum.
+            </p>
+          </Col>
+
+        </Row>
+      </Container>
   
+
+
+ <section className="hero-banner">
+  <img src={banner} alt="banner" className="hero-bg-img" />
+
+  <div className="hero-overlay">
+    <Container >
+      <Row>
+        <Col md={6}>
+          <h1 className="hero-title"><b> Create A Better</b>
+            <br /><b> Future For Yourself</b>
+          </h1>
+
+          <p className="hero-text">
+            At eu lobortis pretium tincidunt amet lacus ut aenean aliquet.
+            Blandit a massa elementum id scelerisque rhoncus.
+          </p>
+
+          <Button variant="success" className="hero-btn">
+            Search Job
+          </Button>
+        </Col>
+      </Row>
+    </Container>
+
+
+    
+  </div>
+</section>
+
+
+
+<section className="py-5 testimonial-section">
+  <div className="container">
+    <div className="text-center mb-5">
+      <h2 className="testimonial"> <b>Testimonials from Our Customers</b> </h2>
+      <p className="text-muted">
+        At eu lobortis pretium tincidunt amet lacus ut aenean aliquet.
+      </p>
+    </div>
+
+    <div className="row">
+      <div className="col-md-4 mb-4">
+        <div className="card testimonial-card">
+          <div className="card-body">
+            <div className="text-warning mb-2">★★★★★</div>
+            <h5>Amazing services</h5>
+            <p className="text-muted small">
+              Metus faucibus sed turpis lectus feugiat tincidunt.
+              Rhoncus sed tristique in dolor.
+            </p>
+
+            <div className="d-flex align-items-center justify-content-between mt-4">
+              <div className="d-flex align-items-center">
+                <div className="avatar me-3"></div>
+                <div>
+                  <strong>Marco Kihn</strong>
+                  <div className="text-muted small">Happy Client</div>
+                </div>
+              </div>
+              <span className="quote">“</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-md-4 mb-4">
+        <div className="card testimonial-card">
+          <div className="card-body">
+            <div className="text-warning mb-2">★★★★★</div>
+            <h5>Everything simple</h5>
+            <p className="text-muted small">
+              Mus etiam et vestibulum venenatis viverra.
+              Elit morbi bibendum.
+            </p>
+
+            <div className="d-flex align-items-center justify-content-between mt-4">
+              <div className="d-flex align-items-center">
+                <div className="avatar me-3"></div>
+                <div>
+                  <strong>Kristin Hester</strong>
+                  <div className="text-muted small">Happy Client</div>
+                </div>
+              </div>
+              <span className="quote">“</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-md-4 mb-4">
+        <div className="card testimonial-card">
+          <div className="card-body">
+            <div className="text-warning mb-2">★★★★★</div>
+            <h5>Awesome, thank you!</h5>
+            <p className="text-muted small">
+              Rhoncus sed tristique in dolor.
+              Mus etiam et vestibulum venenatis.
+            </p>
+
+            <div className="d-flex align-items-center justify-content-between mt-4">
+              <div className="d-flex align-items-center">
+                <div className="avatar me-3"></div>
+                <div>
+                  <strong>Zion Cisneros</strong>
+                  <div className="text-muted small">Happy Client</div>
+                </div>
+              </div>
+              <span className="quote">“</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div className='blog-section'>
+    <h1><b>News and Blog</b></h1>
+    <p className='blog-para'> Metus faucibus sed turpis lectus feugiat tincidunt. Rhoncus sed tristique in dolor</p>
+ <div>
+  <a href="#" className='veiw_all'>veiw all </a>
+ </div>
+ 
+  </div>
+  <div >
+    
+<img src={news1} alt="news_image"className="news_"/>
+
+<img src={news1} alt="news_image"className="news_2"/>
+
+  </div>
+  <div className='blog-date'>
+30 March 2024 <b className='date-2'>30 March 2024</b>
+  </div>
+  <div className='blog-content'> <b>Revitalizing Workplace Morale: Innovative Tactics for  <br />Boosting Employee Engagement in 2024</b> <b className='blog-descrpition'>How to avoid the top six most common job interview mistakes</b>  </div>
+<div className='readmore'><a href="#"> Read more  </a><a href="" className='readmore2'> Read more </a></div>
+</section>
+
+
+
+
 
 
   </div>

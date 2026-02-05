@@ -159,43 +159,68 @@
 
 .clock {
   margin-left: 20px;
-}.wallet{
-    margin-left: 20px;
+}
 
-}.map{
-      margin-left: 20px;
+.wallet {
+  margin-left: 20px;
 
-}.job_detail1{
+}
+
+.map {
+  margin-left: 20px;
+
+}
+
+.job_detail1 {
   margin-left: 570px;
   background-color: #309689;
-}.job_detail2{
+}
+
+.job_detail2 {
   margin-left: 570px;
   background-color: #309689;
-}.job_detail3{
+}
+
+.job_detail3 {
   margin-left: 630px;
   background-color: #309689;
-}.job_detail4{
+}
+
+.job_detail4 {
   margin-left: 630px;
   background-color: #309689;
-}.job_detail5{
+}
+
+.job_detail5 {
   margin-left: 630px;
   background-color: #309689;
-}.media{
+}
+
+.media {
   margin-left: 30px;
-    height: 30px;
+  height: 30px;
   margin-left: 60px;
   margin-bottom: 30px;
-}.parttime{
-    margin-left: 70px;
+}
 
-}.hero_section2{
+.parttime {
+  margin-left: 70px;
+
+}
+
+.hero_section2 {
   background-color: #3096891A;
   padding-bottom: 70px;
-}.hero-section_heading{
+}
+
+.hero-section_heading {
   text-align: center;
-}.hero_section_paragraph{
+}
+
+.hero_section_paragraph {
   text-align: center;
-}  
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -219,7 +244,7 @@
   border-radius: 16px;
   padding: 30px 20px;
   text-align: center;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
 }
 
@@ -242,22 +267,189 @@
   padding: 5px 12px;
   border-radius: 20px;
   font-size: 13px;
-}.default-img{
+}
+
+.default-img {
   height: 300px;
   margin-top: 100px;
   margin-left: 70px;
-}.hero-text {
-  margin: 0;             
-  font-size: 42px;
-  font-weight: bold;
-}.hero-section-2 {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  padding: 40px;
-}
-.herosection_para{
-  text-align: center;
-  margin-top: 200px;
 }
 
+
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+}
+
+.hero-img img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.primary-btn {
+  background: #1abc9c;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.link-btn {
+  color: #1abc9c;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+}
+
+.stats-section {
+  color: #e6d8d8;
+}
+
+.stats-number {
+  color: #1abc9c;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.hero-banner {
+  position: relative;
+  margin-top: 80px;
+}
+
+.hero-bg-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: relative;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  padding: 60px 40px;
+}
+
+.hero-title {
+  color: #e6f7f3;
+}
+
+.hero-text {
+  color: #e6f7f3;
+
+}
+
+.hero-btn {
+  background-color: #29b498;
+}
+
+
+
+
+.testimonial {
+  margin-top: 90px;
+}
+
+.testimonial-section {
+  background-color: #eef7f5;
+}
+
+.testimonial-card {
+  border-radius: 16px;
+  border: none;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background: #ccc;
+  border-radius: 50%;
+}
+
+
+
+
+.news_ {
+  height: 300px;
+  width: 520px;
+  margin-left: 100px;
+
+}
+
+.news_2 {
+  height: 300px;
+  width: 500px;
+  margin-left: 60px;
+}
+
+.blog-section {
+  margin: 70px;
+}.blog-para{
+    margin-top: 10px;
+
+
+}.veiw_all{
+  margin-left: 1100px;
+  color: #309689;
+}
+.blog-date{
+  margin-left: 100px;
+}
+.blog-content{
+  margin-left: 100px;
+}
+.blog-descrpition{
+  margin-left: 270px;
+}
+.date-2{
+  margin-left: 470px;
+}
+.readmore{
+  margin-left: 100px;
+}.readmore2{
+    margin-left: 500px;
+
+}
