@@ -1,0 +1,58 @@
+.main_nav {
+  background-color: black;
+  padding: 12px 30px;
+}
+
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;          
+  gap: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  font-size: clamp(16px, 2vw, 18px);
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;        
+  justify-content: center;
+}
+
+.home,
+.job,
+.about,
+.contact {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+
+
+
+.login {
+  color: aliceblue;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.register {
+  background-color: #1abc9c;
+  color: black;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: clamp(13px, 1.8vw, 14px);
+  text-decoration: none;
+}
+
+.register {
+  background-color: #16a085;
+  color: azure;
+}
