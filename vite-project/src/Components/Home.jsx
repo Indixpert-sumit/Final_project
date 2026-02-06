@@ -20,7 +20,6 @@ import map from './../assets/map.png'
 import regional from './../assets/regional.png'
 import internal from './../assets/internal.png'
 import district from './../assets/district.png'
-import corporate from './../assets/corporate.png'
 import agriculture from './../assets/agriculture.png'
 import metal from './../assets/metal.png'
 import shoppingbag from './../assets/shoppingbag.png'
@@ -93,83 +92,205 @@ const Header = () => {
         <h1 className='aviable'> <b>Recent Jobs Aviable</b></h1>
 
         <p className='paragraph'>At eu lobortis pretium tincidunt amet lacus ut aenean aliquetc <span className='veiw'> <b>Veiw aLL</b></span></p>
-        <p className='minutes'> 10m min ago</p>
-        <span><img className='wishlist' src={wishlist} alt="" /></span>
-        <div className='forward'>
-          <img src={forward} alt="forwad company logo" />
-          <b>Forward Security Director</b>
-          <p className='descriptio_forwrd'>Bauch, Schuppe and Schulist Co</p>
+       <div className="job-card">
 
-        </div>
-        <div><img className='hotel-bag' src={breifcase} alt="hotel bag" /> Hotels & Tourism
-          <img className='clock' src={clock} alt="clock image" />Full time
-          <img className='wallet' src={wallet} alt="wallet image" />$40000-$42000
-          <img className='map' src={map} alt="map" />New-York, USA
-          <Button className='job_detail1'>job details</Button>
-        </div>
+  <div className="job-top">
+    <p className="minutes">10 min ago</p>
+    <img className="wishlist" src={wishlist} alt="wishlist" />
+  </div>
+
+  <div className="forward">
+    <img src={forward} alt="company logo" />
+    <div>
+      <b>Forward Security Director</b>
+      <p className="descriptio_forwrd">
+        Bauch, Schuppe and Schulist Co
+      </p>
+    </div>
+  </div>
+
+  <div className="job-info">
+    <span>
+      <img src={breifcase} alt=""  height={30}/>
+      Hotels & Tourism
+    </span>
+
+    <span>
+      <img src={clock} alt="" />
+      Full time
+    </span>
+
+    <span>
+      <img src={wallet} alt="" />
+      $40000-$42000
+    </span>
+
+    <span>
+      <img src={map} alt="" />
+      New York, USA
+    </span>
+
+    <Button className="job_detail1">Job Details</Button>
+  </div>
+
+</div>
 
 
 
-        <p className='minutes'> 12m min ago</p>
-        <span><img className='wishlist' src={wishlist} alt="" /></span>
-        <div className='forward'>
-          <img src={regional} alt="regional company logo" />
-          <b>Regional Creative Facilitator</b>
-          <p className='descriptio_forwrd'>Wisozk - Becker Co</p>
+        <div className="job-top">
+    <p className="minutes">12 min ago</p>
+    <img className="wishlist" src={wishlist} alt="wishlist" />
+  </div>
 
-        </div>
-        <div><img className='media' src={breifcase} alt="hotel bag" /> Media
-          <img className='parttime' src={clock} alt="clock image" />part time
-          <img className='wallet' src={wallet} alt="wallet image" />$28000-$32000
-          <img className='map' src={map} alt="map" />Los- Angeles, USA
-          <Button className='job_detail2'>job details</Button>
-        </div>
+  <div className="forward">
+    <img src={regional} alt="company logo" />
+    <div>
+      <b>Regional Creative Facilitator  </b>
+      <p className="descriptio_forwrd">
+       Wisozk - Becker Co
+      </p>
+    </div>
+  </div>
 
-        <p className='minutes'> 15m min ago</p>
-        <span><img className='wishlist' src={wishlist} alt="" /></span>
-        <div className='forward'>
-          <img src={internal} alt="forwad company logo" />
-          <b>Internal Integration Planner</b>
-          <p className='descriptio_forwrd'>Mraz, Quigley and Feest Inc.</p>
+  <div className="job-info">
+    <span>
+      <img src={breifcase} alt="" height={30} />
+      Media
+    </span>
 
-        </div>
-        <div><img className='hotel-bag' src={breifcase} alt="hotel bag" /> Construction
-          <img className='clock' src={clock} alt="clock image" />Full time
-          <img className='wallet' src={wallet} alt="wallet image" />$48000-$50000
-          <img className='map' src={map} alt="map" />Texas, USA
-          <Button className='job_detail3'>job details</Button>
-        </div>
+    <span>
+      <img src={clock} alt="" />
+      Part time
+    </span>
 
-        <p className='minutes'> 24 min ago</p>
-        <span><img className='wishlist' src={wishlist} alt="wihsist image" /></span>
-        <div className='forward'>
-          <img src={district} alt="forwad company logo" />
-          <b>District Intranet Director</b>
-          <p className='descriptio_forwrd'>VonRueden - Weber Co</p>
+    <span>
+      <img src={wallet} alt="" />
+     $28000-$32000
+    </span>
 
-        </div>
-        <div><img className='hotel-bag' src={breifcase} alt="hotel bag" />  Commerce
-          <img className='clock' src={clock} alt="clock image" />Full time
-          <img className='wallet' src={wallet} alt="wallet image" />$42000-$48000
-          <img className='map' src={map} alt="map" />Florida, USA
-          <Button className='job_detail4'>job details</Button>
-        </div>
+    <span>
+      <img src={map} alt="" />
+Los- Angeles, USA    </span>
 
-        <p className='minutes'> 26 min ago</p>
-        <span><img className='wishlist' src={wishlist} alt="" /></span>
-        <div className='forward'>
-          <img src={corporate} alt="forwad company logo" />
-          <b>District Intranet Director</b>
-          <p className='descriptio_forwrd'>Cormier, Turner and Flatley Inc</p>
+    <Button className="job_detail1">Job Details</Button>
+  </div>
 
-        </div>
-        <div><img className='hotel-bag' src={breifcase} alt="hotel bag" />Commerce
-          <img className='clock' src={clock} alt="clock image" />Full time
-          <img className='wallet' src={wallet} alt="wallet image" />$38000-$40000
-          <img className='map' src={map} alt="map" />Boston, USA
-          <Button className='job_detail5'>job details</Button>
-        </div>
 
+         <div className="job-top">
+    <p className="minutes">15 min ago</p>
+    <img className="wishlist" src={wishlist} alt="wishlist" />
+  </div>
+
+  <div className="forward">
+    <img src={internal} alt="company logo" />
+    <div>
+      <b>Internal Integration Planner  </b>
+      <p className="descriptio_forwrd">
+     Mraz, Quigley and Feest Inc.
+      </p>
+    </div>
+  </div>
+
+  <div className="job-info">
+    <span>
+      <img src={breifcase} alt="" height={30} />
+      Construction
+    </span>
+
+    <span>
+      <img src={clock} alt="" />
+     Full time
+    </span>
+
+    <span>
+      <img src={wallet} alt="" />
+$28000-$32000
+    </span>
+
+    <span>
+      <img src={map} alt="" />
+Los- Angeles, USA  
+ </span>
+
+    <Button className="job_detail1">Job Details</Button>
+  </div>
+
+          <div className="job-top">
+    <p className="minutes">24 min ago</p>
+    <img className="wishlist" src={wishlist} alt="wishlist" />
+  </div>
+
+  <div className="forward">
+    <img src={district} alt="company logo" />
+    <div>
+      <b>District Intranet Director  </b>
+      <p className="descriptio_forwrd">
+   VonRueden - Weber Co
+      </p>
+    </div>
+  </div>
+
+  <div className="job-info">
+    <span>
+      <img src={breifcase} alt=""  height={30}/>
+     Commerce
+    </span>
+
+    <span>
+      <img src={clock} alt="" />
+     Full time
+    </span>
+
+    <span>
+      <img src={wallet} alt="" />
+$42000-$48000
+    </span>
+
+    <span>
+      <img src={map} alt="" />
+Florida, USA
+ </span>
+
+    <Button className="job_detail1">Job Details</Button>
+  </div>
+          <div className="job-top">
+    <p className="minutes">26 min ago</p>
+    <img className="wishlist" src={wishlist} alt="wishlist" />
+  </div>
+
+  <div className="forward">
+    <img src={district} alt="company logo" />
+    <div>
+      <b>Corporate Tactics Facilitator  </b>
+      <p className="descriptio_forwrd">
+ Cormier, Turner and Flatley Inc
+      </p>
+    </div>
+  </div>
+
+  <div className="job-info">
+    <span>
+      <img src={breifcase} alt="" height={30} />
+     Commerce
+    </span>
+
+    <span>
+      <img src={clock} alt="" />
+     Full time
+    </span>
+
+    <span>
+      <img src={wallet} alt="" />
+$38000-$40000
+    </span>
+
+    <span>
+      <img src={map} alt="" />
+Boston, USA
+ </span>
+
+    <Button className="job_detail1">Job Details</Button>
+  </div>
 
 
         <div className='hero_section2'>
