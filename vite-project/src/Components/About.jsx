@@ -1,5 +1,5 @@
 import { Accordion, Button, Card, Col, Container, Navbar, Row } from 'react-bootstrap'
-import './../About/About.css'
+import './../sass/About.css'
 import aboutdefaul from './../assets/aboutdefaul.png'
 import userimg from './../assets/userimg.png'
 import cv from './../assets/cv.png'
