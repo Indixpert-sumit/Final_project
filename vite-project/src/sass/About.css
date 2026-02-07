@@ -150,18 +150,15 @@
   border-radius: 18px;
 }
 
-/* Tall image on the left */
 .img-large {
   grid-row: span 2;
   height: 420px;
 }
 
-/* Right top image */
 .img-top {
   height: 200px;
 }
 
-/* Right bottom image */
 .img-bottom {
   height: 200px;
 }.right-content {
@@ -172,26 +169,18 @@
   font-size: 36px;
   font-weight: 700;
   line-height: 1.2;
-}
-
-.desc {
+}.desc {
   color: #777;
   margin: 16px 0 28px;
   max-width: 420px;
-}
-
-.icon-grid {
+}.icon-grid {
   row-gap: 20px;
-}
-
-.icon-item {
+}.icon-item {
   display: flex;
   align-items: center;
   gap: 12px;
   font-weight: 500;
-}
-
-.icon-circle {
+}.icon-circle {
   width: 40px;
   height: 40px;
   border: 1px solid #2fb7a3;
@@ -201,6 +190,9 @@
   justify-content: center;
   color: #2fb7a3;
   font-size: 18px;
+}.readmore1{
+  color: #2fb7a3;
+  margin-left: 100px;
 }
 
 

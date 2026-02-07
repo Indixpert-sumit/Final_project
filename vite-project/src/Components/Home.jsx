@@ -533,16 +533,16 @@ Boston, USA
           </div>
           <div >
 
-            <img src={news1} alt="news_image" className="news_" />
+            <img src={news1} alt="news_image" className="news_" height={400}  width={636} />
 
-            <img src={news1} alt="news_image" className="news_2" />
+            <img src={news1} alt="news_image" className="news_2" height={400}  width={636}/>
 
           </div>
           <div className='blog-date'>
             30 March 2024 <b className='date-2'>30 March 2024</b>
           </div>
           <div className='blog-content'> <b>Revitalizing Workplace Morale: Innovative Tactics for  <br />Boosting Employee Engagement in 2024</b> <b className='blog-descrpition'>How to avoid the top six most common job interview mistakes</b>  </div>
-          <div className='readmore'><a href="#"> Read more  </a><a href="" className='readmore2'> Read more </a></div>
+          <div ><a href="#" className='readmore'> Read more  </a><a href="" className='readmore2'> Read more </a></div>
         </section>
 
 

@@ -53,65 +53,39 @@
 }
 
 .own_container {
-  background-color: black;
   display: flex;
-  width: 100%;
-
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 30px;
-  flex-wrap: wrap;
-  margin-top: 40px;
+  padding: 20px 0;
+  background-color: #000;
 }
 
-.spotify {
-  height: 50px;
-  display: flex;
-
-  margin-top: 20px;
+.logo {
+  max-width: 120px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
-.slack {
-  height: 50px;
-  display: flex;
-  padding-left: 50px;
 
-  margin-top: 20px;
-  margin-left: 15px;
+
+@media (max-width: 576px) {
+  .logo {
+    max-width: 80px;
+  }
 }
 
-.adobe {
-  height: 50px;
-  display: flex;
-
-  margin-top: 20px;
-  margin-left: 150px;
-}
-
-.asana {
-  height: 50px;
-  display: flex;
-
-  margin-top: 20px;
-  margin-left: 150px;
-}
-
-.linear {
-  height: 50px;
-  display: flex;
-
-  margin-top: 20px;
-  margin-left: 30px;
-}
 
 .aviable {
-  background-color: #fff8f8;
+  background-color: #ffffff;
   padding-top: 50px;
   padding-left: 50px;
 }
 
 .paragraph {
-  background-color: #fff8f8;
+  background-color: #ffffff;
   padding-top: 10px;
   padding-left: 50px;
 
@@ -131,74 +105,58 @@ button.search-job {
   color: white;
 }
 
-.minutes {
-  margin-left: 50px;
+.job-card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+/* top row */
+.job-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* middle row */
+.forward {
+  display: flex;
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.forward img {
+  height: 45px;
+}
+
+/* bottom row */
+.job-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+}
+
+.job-info span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* button */
+.job_detail1 {
+  margin-left: auto;
+  white-space: nowrap;
+}.minutes{
   color: #1abc9c;
 }
 
-.search-job {
-
-  background-color: #247a6d;
-
+@media (max-width: 576px) {
+  .job_detail1 {
+    width: 100%;
+  }
 }
 
-.wishlist {
-  margin-left: 1040px;
-}
-
-.forward {
-  margin-left: 50px;
-}
-
-.descriptio_forwrd {
-  padding-left: 20px;
-}
-
-.hotel-bag {
-  height: 30px;
-  margin-left: 60px;
-  margin-bottom: 30px;
-
-}
-
-.clock {
-  margin-left: 20px;
-}
-
-.wallet {
-  margin-left: 20px;
-
-}
-
-.map {
-  margin-left: 20px;
-
-}
-
-.job_detail1 {
-  margin-left: 590px;
-  color: #1bc4a2;
-}
-
-.job_detail2 {
-  margin-left: 590px;
-  background-color: #309689;
-}
-
-.job_detail3 {
-  margin-left: 650px;
-  background-color: #309689;
-}
-
-.job_detail4 {
-  margin-left: 660px;
-  background-color: #309689;
-}
-
-.job_detail5 {
-  margin-left: 660px;
-  background-color: #309689;
-}
 
 .media {
   margin-left: 30px;
@@ -417,15 +375,12 @@ button.search-job {
 
 
 .news_ {
-  height: 300px;
-  width: 520px;
-  margin-left: 100px;
+   margin-left: 10px;
 
 }
 
 .news_2 {
-  height: 300px;
-  width: 500px;
+
   margin-left: 60px;
 }
 
@@ -460,9 +415,9 @@ button.search-job {
   margin-left: 470px;
 }
 
-.readmore1{
+.readmore{
   margin-left: 100px;
-  color: #1abc9c;
+  color: #3bb39b;
 }
 
 .readmore2 {
@@ -470,7 +425,21 @@ button.search-job {
     color: #1abc9c;
 
 
-}.footer {
+}@media (max-width: 576px) {
+  .blog-section {
+    margin: 20px;
+  }
+
+  .news_,
+  .news_2 {
+    height: 220px;
+  }
+
+  .veiw_all {
+    text-align: center;
+  }
+}
+.footer {
   background: #0b0b0b;
   color: #ccc;
   padding: 60px 80px 30px;
