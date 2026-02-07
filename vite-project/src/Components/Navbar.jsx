@@ -1,39 +1,45 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-import '../sass/Navbar.css'
-import bag from '../assets/bag.svg'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../sass/Navbar.css";
+import bag from "./../assets/bag.svg";
+
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/Container";
+import Button from "react-bootstrap/Button";
+
 import { Link } from "react-router-dom";
-import { Container, Navbar } from 'react-bootstrap'
 
 const Navbar_ = () => {
   return (
-       <nav className="main_nav">
-      <div className="nav_container">
+    <Navbar bg="dark" variant="dark" expand="lg" className="py-3">
+      <Container>
+        {/* Left logo */}
+        <Navbar.Brand as={Link} to="/" className="fw-bold">
+          <img src={bag} alt="logo" /> Job Portal
+        </Navbar.Brand>
 
-        {/* LEFT LOGO */}
-        <div className="logo">
-          <span className="logo-icon"><img src={bag} alt="" /></span>
-          <span className="logo-text">Job Portal</span>
-        </div>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
-        {/* CENTER LINKS */}
-        <div className="nav-links">
-          <Link className="home" to="/">Home</Link>
-          <Link className="job" to="/jobs">Jobs</Link>
-          <Link className="about" to="/about">About Us</Link>
-          <Link className="contact" to="/Contact">Contact Us</Link>
-        </div>
+        <Navbar.Collapse id="basic-navbar-nav">
+          {/* Center menu */}
+          <Nav className="mx-auto gap-4">
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/job">Jobs</Nav.Link>
+            <Nav.Link as={Link} to="/about">About Us</Nav.Link>
+            <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
+          </Nav>
 
-        {/* RIGHT AUTH */}
-        <div className="auth">
-          <Link className="login" to="/login">Login</Link>
-          <Link className="register" to="/register">Register</Link>
-        </div>
-
-      </div>
-    </nav>
+          {/* Right buttons */}
+          <Nav className="align-items-center gap-3">
+            <Nav.Link as={Link} to="/login">Login</Nav.Link>
+            <Button as={Link} to="/register" variant="success">
+              Register
+            </Button>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
-}
-  
+};
 
-
-export default Navbar_
+export default Navbar_;
