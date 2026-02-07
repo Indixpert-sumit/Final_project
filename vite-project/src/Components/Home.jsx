@@ -92,205 +92,205 @@ const Header = () => {
         <h1 className='aviable'> <b>Recent Jobs Aviable</b></h1>
 
         <p className='paragraph'>At eu lobortis pretium tincidunt amet lacus ut aenean aliquetc <span className='veiw'> <b>Veiw aLL</b></span></p>
-       <div className="job-card">
+        <div className="job-card">
 
-  <div className="job-top">
-    <p className="minutes">10 min ago</p>
-    <img className="wishlist" src={wishlist} alt="wishlist" />
-  </div>
+          <div className="job-top">
+            <p className="minutes">10 min ago</p>
+            <img className="wishlist" src={wishlist} alt="wishlist" />
+          </div>
 
-  <div className="forward">
-    <img src={forward} alt="company logo" />
-    <div>
-      <b>Forward Security Director</b>
-      <p className="descriptio_forwrd">
-        Bauch, Schuppe and Schulist Co
-      </p>
-    </div>
-  </div>
+          <div className="forward">
+            <img src={forward} alt="company logo" />
+            <div>
+              <b>Forward Security Director</b>
+              <p className="descriptio_forwrd">
+                Bauch, Schuppe and Schulist Co
+              </p>
+            </div>
+          </div>
 
-  <div className="job-info">
-    <span>
-      <img src={breifcase} alt=""  height={30}/>
-      Hotels & Tourism
-    </span>
+          <div className="job-info">
+            <span>
+              <img src={breifcase} alt="" height={30} />
+              Hotels & Tourism
+            </span>
 
-    <span>
-      <img src={clock} alt="" />
-      Full time
-    </span>
+            <span>
+              <img src={clock} alt="" />
+              Full time
+            </span>
 
-    <span>
-      <img src={wallet} alt="" />
-      $40000-$42000
-    </span>
+            <span>
+              <img src={wallet} alt="" />
+              $40000-$42000
+            </span>
 
-    <span>
-      <img src={map} alt="" />
-      New York, USA
-    </span>
+            <span>
+              <img src={map} alt="" />
+              New York, USA
+            </span>
 
-    <Button className="job_detail1">Job Details</Button>
-  </div>
+            <Button className="job_detail1">Job Details</Button>
+          </div>
 
-</div>
+        </div>
 
 
 
         <div className="job-top">
-    <p className="minutes">12 min ago</p>
-    <img className="wishlist" src={wishlist} alt="wishlist" />
-  </div>
+          <p className="minutes">12 min ago</p>
+          <img className="wishlist" src={wishlist} alt="wishlist" />
+        </div>
 
-  <div className="forward">
-    <img src={regional} alt="company logo" />
-    <div>
-      <b>Regional Creative Facilitator  </b>
-      <p className="descriptio_forwrd">
-       Wisozk - Becker Co
-      </p>
-    </div>
-  </div>
+        <div className="forward">
+          <img src={regional} alt="company logo" />
+          <div>
+            <b>Regional Creative Facilitator  </b>
+            <p className="descriptio_forwrd">
+              Wisozk - Becker Co
+            </p>
+          </div>
+        </div>
 
-  <div className="job-info">
-    <span>
-      <img src={breifcase} alt="" height={30} />
-      Media
-    </span>
+        <div className="job-info">
+          <span>
+            <img src={breifcase} alt="" height={30} />
+            Media
+          </span>
 
-    <span>
-      <img src={clock} alt="" />
-      Part time
-    </span>
+          <span>
+            <img src={clock} alt="" />
+            Part time
+          </span>
 
-    <span>
-      <img src={wallet} alt="" />
-     $28000-$32000
-    </span>
+          <span>
+            <img src={wallet} alt="" />
+            $28000-$32000
+          </span>
 
-    <span>
-      <img src={map} alt="" />
-Los- Angeles, USA    </span>
+          <span>
+            <img src={map} alt="" />
+            Los- Angeles, USA    </span>
 
-    <Button className="job_detail1">Job Details</Button>
-  </div>
+          <Button className="job_detail1">Job Details</Button>
+        </div>
 
 
-         <div className="job-top">
-    <p className="minutes">15 min ago</p>
-    <img className="wishlist" src={wishlist} alt="wishlist" />
-  </div>
+        <div className="job-top">
+          <p className="minutes">15 min ago</p>
+          <img className="wishlist" src={wishlist} alt="wishlist" />
+        </div>
 
-  <div className="forward">
-    <img src={internal} alt="company logo" />
-    <div>
-      <b>Internal Integration Planner  </b>
-      <p className="descriptio_forwrd">
-     Mraz, Quigley and Feest Inc.
-      </p>
-    </div>
-  </div>
+        <div className="forward">
+          <img src={internal} alt="company logo" />
+          <div>
+            <b>Internal Integration Planner  </b>
+            <p className="descriptio_forwrd">
+              Mraz, Quigley and Feest Inc.
+            </p>
+          </div>
+        </div>
 
-  <div className="job-info">
-    <span>
-      <img src={breifcase} alt="" height={30} />
-      Construction
-    </span>
+        <div className="job-info">
+          <span>
+            <img src={breifcase} alt="" height={30} />
+            Construction
+          </span>
 
-    <span>
-      <img src={clock} alt="" />
-     Full time
-    </span>
+          <span>
+            <img src={clock} alt="" />
+            Full time
+          </span>
 
-    <span>
-      <img src={wallet} alt="" />
-$28000-$32000
-    </span>
+          <span>
+            <img src={wallet} alt="" />
+            $28000-$32000
+          </span>
 
-    <span>
-      <img src={map} alt="" />
-Los- Angeles, USA  
- </span>
+          <span>
+            <img src={map} alt="" />
+            Los- Angeles, USA
+          </span>
 
-    <Button className="job_detail1">Job Details</Button>
-  </div>
+          <Button className="job_detail1">Job Details</Button>
+        </div>
 
-          <div className="job-top">
-    <p className="minutes">24 min ago</p>
-    <img className="wishlist" src={wishlist} alt="wishlist" />
-  </div>
+        <div className="job-top">
+          <p className="minutes">24 min ago</p>
+          <img className="wishlist" src={wishlist} alt="wishlist" />
+        </div>
 
-  <div className="forward">
-    <img src={district} alt="company logo" />
-    <div>
-      <b>District Intranet Director  </b>
-      <p className="descriptio_forwrd">
-   VonRueden - Weber Co
-      </p>
-    </div>
-  </div>
+        <div className="forward">
+          <img src={district} alt="company logo" />
+          <div>
+            <b>District Intranet Director  </b>
+            <p className="descriptio_forwrd">
+              VonRueden - Weber Co
+            </p>
+          </div>
+        </div>
 
-  <div className="job-info">
-    <span>
-      <img src={breifcase} alt=""  height={30}/>
-     Commerce
-    </span>
+        <div className="job-info">
+          <span>
+            <img src={breifcase} alt="" height={30} />
+            Commerce
+          </span>
 
-    <span>
-      <img src={clock} alt="" />
-     Full time
-    </span>
+          <span>
+            <img src={clock} alt="" />
+            Full time
+          </span>
 
-    <span>
-      <img src={wallet} alt="" />
-$42000-$48000
-    </span>
+          <span>
+            <img src={wallet} alt="" />
+            $42000-$48000
+          </span>
 
-    <span>
-      <img src={map} alt="" />
-Florida, USA
- </span>
+          <span>
+            <img src={map} alt="" />
+            Florida, USA
+          </span>
 
-    <Button className="job_detail1">Job Details</Button>
-  </div>
-          <div className="job-top">
-    <p className="minutes">26 min ago</p>
-    <img className="wishlist" src={wishlist} alt="wishlist" />
-  </div>
+          <Button className="job_detail1">Job Details</Button>
+        </div>
+        <div className="job-top">
+          <p className="minutes">26 min ago</p>
+          <img className="wishlist" src={wishlist} alt="wishlist" />
+        </div>
 
-  <div className="forward">
-    <img src={district} alt="company logo" />
-    <div>
-      <b>Corporate Tactics Facilitator  </b>
-      <p className="descriptio_forwrd">
- Cormier, Turner and Flatley Inc
-      </p>
-    </div>
-  </div>
+        <div className="forward">
+          <img src={district} alt="company logo" />
+          <div>
+            <b>Corporate Tactics Facilitator  </b>
+            <p className="descriptio_forwrd">
+              Cormier, Turner and Flatley Inc
+            </p>
+          </div>
+        </div>
 
-  <div className="job-info">
-    <span>
-      <img src={breifcase} alt="" height={30} />
-     Commerce
-    </span>
+        <div className="job-info">
+          <span>
+            <img src={breifcase} alt="" height={30} />
+            Commerce
+          </span>
 
-    <span>
-      <img src={clock} alt="" />
-     Full time
-    </span>
+          <span>
+            <img src={clock} alt="" />
+            Full time
+          </span>
 
-    <span>
-      <img src={wallet} alt="" />
-$38000-$40000
-    </span>
+          <span>
+            <img src={wallet} alt="" />
+            $38000-$40000
+          </span>
 
-    <span>
-      <img src={map} alt="" />
-Boston, USA
- </span>
+          <span>
+            <img src={map} alt="" />
+            Boston, USA
+          </span>
 
-    <Button className="job_detail1">Job Details</Button>
-  </div>
+          <Button className="job_detail1">Job Details</Button>
+        </div>
 
 
         <div className='hero_section2'>
@@ -533,9 +533,9 @@ Boston, USA
           </div>
           <div >
 
-            <img src={news1} alt="news_image" className="news_" height={400}  width={636} />
+            <img src={news1} alt="news_image" className="news_" height={400} width={636} />
 
-            <img src={news1} alt="news_image" className="news_2" height={400}  width={636}/>
+            <img src={news1} alt="news_image" className="news_2" height={400} width={636} />
 
           </div>
           <div className='blog-date'>

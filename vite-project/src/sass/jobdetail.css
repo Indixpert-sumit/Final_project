@@ -1,0 +1,19 @@
+.job_details{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 50px;
+}.job-left{
+    margin-top: 20px;
+
+}.professional_para{
+    margin-top: 20px;
+}.button_group{
+    border-radius: 10px;
+    color: rgb(255, 253, 253);
+    background-color: rgb(158, 210, 192);
+    border: none;
+    margin-left: 20px;
+}.last_card{
+    background-color: rgb(255, 255, 255);
+}

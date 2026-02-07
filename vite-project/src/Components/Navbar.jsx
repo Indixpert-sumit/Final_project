@@ -30,7 +30,7 @@ const Navbar_ = () => {
           </Nav>
 
           {/* Right buttons */}
-          <Nav className="align-items-center gap-3">
+          <Nav>
             <Nav.Link as={Link} to="/login">Login</Nav.Link>
             <Button as={Link} to="/register" variant="success">
               Register

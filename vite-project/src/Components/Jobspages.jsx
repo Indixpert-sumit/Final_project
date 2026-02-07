@@ -1,4 +1,4 @@
-import { Container, Row, Col, Card, Form, Button, Badge, ProgressBar } from "react-bootstrap";
+import { Container, Row, Col, Card, Form, Button, Badge, ProgressBar, Pagination } from "react-bootstrap";
 import './../sass/job.css'
 import wishlist from './../assets/wishlist.png'
 import forward from './../assets/forward.png'
@@ -17,6 +17,7 @@ import tesla from './../assets/tesla.png'
 import md from './../assets/md.png'
 import apple from './../assets/apple.png'
 import jobbag from './../assets/jobbag.png'
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -24,9 +25,14 @@ import jobbag from './../assets/jobbag.png'
 
 
 const JobsPage = () => {
+  const navigate = useNavigate();
+
   return (
-    <Container fluid className="mt-3">
+<div>      <h1 className="jobs_heading">Jobs</h1>
+
+    <Container fluid className="mt-5" >
       <Row>
+        
 
         {/* LEFT SIDEBAR */}
         <Col md={3}>
@@ -154,7 +160,7 @@ const JobsPage = () => {
               <option>Sort by oldest</option>
             </Form.Select>
           </div>
-
+ 
           {/* JOB CARD */}
           <Row>
             <Col xs={12}>
@@ -479,18 +485,37 @@ const JobsPage = () => {
                   </Button>
                 </div>
 
+
               </Card>
+              {/* pagination_section */}
+              <section className="">
+  <Pagination size="md">
+    <Pagination.Item className="pagenation_one"
+      onClick={() => navigate("/job")}
+    >
+      1
+    </Pagination.Item>
+
+    <Pagination.Item  className="pagenation2"
+      onClick={() => navigate("/jobdetail")}
+    >
+      2
+    </Pagination.Item>
+  </Pagination>
+</section>
 
             </Col>
 
           </Row>
         </Col>
+
         {/* last container */}
+
         <Container className="topcompany">
           <h2>Top company</h2>
           <p className="toppcompanyp">At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum</p>
           <Row>
-            <Col md={3} sm={6} xs={12}>
+            <Col md={3} sm={6}>
               <Card className="h-100">
                 <Card.Img />
                 <Card.Body className="company_card text-center">
@@ -611,6 +636,7 @@ const JobsPage = () => {
         </footer>
       </Row>
     </Container>
+    </div>
   );
 };
 
