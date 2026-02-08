@@ -1,4 +1,4 @@
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Container, Row, Col, Card, Button, FloatingLabel } from "react-bootstrap";
 import './../sass/jobdetail.css'
 import wishlist from './../assets/wishlist.png'
 import district from './../assets/district.png'
@@ -13,6 +13,13 @@ import linkedin from './../assets/linkedin.png'
 import internalcord from './../assets/internalcord.png'
 import corporate from './../assets/corporate.png'
 import person from './../assets/person.png'
+import starbatch from './../assets/starbatch.png'
+import breifcase2 from './../assets/breifcase2.png'
+import degree from './../assets/degree.png'
+import googlemap2 from './../assets/googlemap2.png'
+import { Form } from "react-bootstrap";
+import jobbag from './../assets/jobbag.png'
+
 
 
 
@@ -118,7 +125,7 @@ const Jobdetail = () => {
             </div>
             <h5 className="fw-bold">Tags:</h5>
             <div>
-              <Button className="button_group">Full time</Button>
+              <Button className="button_group ">Full time</Button>
               <Button className="button_group">Commerce</Button>
               <Button className="button_group">New - York</Button>
               <Button className="button_group">Corporate</Button>
@@ -271,45 +278,124 @@ const Jobdetail = () => {
 
           {/* RIGHT SIDE */}
           <Col lg={4} md={12}>
-            <Card >
+            <Card className="right_card" >
               <Card.Body>
                 <h6 className="fw-bold mb-3">Job Overview</h6>
 
                 <div>
-                   <img src={person} alt="" className="job_title"/><b>Job tiile</b> 
-                  <p>Corporate Solutions Executive</p>
+                  <img src={person} alt="person image" /><b className="job_title">Job tiile</b>
+                  <p className="overveiw_p">Corporate Solutions Executive</p>
                 </div>
 
                 <div>
-                   <img src={person} alt="" className="job_title"/><b>Job tiile</b> 
-                  <p>Corporate Solutions Executive</p>
+                  <img src={clock} alt="clock image" /><b className="job_title">Job Type</b>
+                  <p className="overveiw_p">Full Time</p>
                 </div>
 
                 <div>
-                   <img src={person} alt="" className="job_title"/><b>Job tiile</b> 
-                  <p>Corporate Solutions Executive</p>
-                </div>
-
-                 <div>
-                   <img src={person} alt="" className="job_title"/><b>Job tiile</b> 
-                  <p>Corporate Solutions Executive</p>
+                  <img src={breifcase2} alt="breifcase" /><b className="job_title">Category</b>
+                  <p className="overveiw_p">Commerce</p>
                 </div>
 
                 <div>
-                   <img src={person} alt="" className="job_title"/><b>Job tiile</b> 
-                  <p>Corporate Solutions Executive</p>
+                  <img src={starbatch} alt="" /><b className="job_title">Experience</b>
+                  <p className="overveiw_p">5 Years</p>
                 </div>
 
-                 <div>
-                   <img src={person} alt="" className="job_title"/><b>Job tiile</b> 
-                  <p>Corporate Solutions Executive</p>
+                <div>
+                  <img src={degree} alt="" /><b className="job_title">Degree</b>
+                  <p className="overveiw_p">Master</p>
+                </div>
+
+                <div>
+                  <img src={wallet} alt="" /><b className="job_title">Offered Salary</b>
+                  <p className="overveiw_p">$40000-$42000</p>
+                </div>
+                <div>
+                  <img src={wallet} alt="" /><b className="job_title">location</b>
+                  <p className="overveiw_p">New-York, USA</p>
                 </div>
               </Card.Body>
+              <img src={googlemap2} alt="" />
             </Card>
-          </Col>
-        </Row>
-      </Container>
+            {/* right 2nd box */}
+            <Card className="right_card">
+              <h5><b>Send Us Message</b></h5>
+              <Form className="mt-3">
+                <Form.Control type="Full name" placeholder="Full name" />
+                <Form.Control className="mt-3" type="Email" placeholder="Email" />
+                <Form.Control className="mt-3" type="Full name" placeholder="Phone no" />
+                <Form.Control className="mt-3" as="textarea" rows={4} placeholder="Description" />
 
+              </Form>
+              <Button className="send_message" >
+                Send message
+              </Button>
+            </Card>
+
+          </Col>
+
+        </Row>
+
+      </Container>
+      {/* Footere */}
+      <footer className="footer">
+        <div className="footer-container">
+
+          {/* Column 1 */}
+          <div className="footer-col">
+            <h3 className="footer-logo"><img src={jobbag} alt="" /> Job</h3>
+            <p>
+              Quis enim pellentesque viverra tellus eget malesuada facilisis.
+              Congue nibh vivamus aliquet nunc mauris.
+            </p>
+          </div>
+
+          {/* Column 2 */}
+          <div className="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li>About Us</li>
+              <li>Our Team</li>
+              <li>Partners</li>
+              <li>For Candidates</li>
+              <li>For Employers</li>
+            </ul>
+          </div>
+
+          {/* Column 3 */}
+          <div className="footer-col">
+            <h4>Job Categories</h4>
+            <ul>
+              <li>Telecommunications</li>
+              <li>Hotels & Tourism</li>
+              <li>Construction</li>
+              <li>Education</li>
+              <li>Financial Services</li>
+            </ul>
+          </div>
+
+          {/* Column 4 */}
+          <div className="footer-col">
+            <h4>Newsletter</h4>
+            <p>Eu nunc pretium vitae platea. Non netus elementum vulputate.</p>
+            <div className="newsletter">
+              <input type="email" placeholder="Email Address" />
+              <button>Subscribe now</button>
+            </div>
+          </div>
+
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="footer-bottom">
+          <p>© Copyright Job Portal 2024. Designed by Figma.guru</p>
+          <div className="footer-links">
+            <span>Privacy Policy</span>
+            <span>Terms & Conditions</span>
+          </div>
+        </div>
+      </footer>
 
     </section>
   )

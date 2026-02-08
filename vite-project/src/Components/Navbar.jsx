@@ -30,9 +30,9 @@ const Navbar_ = () => {
           </Nav>
 
           {/* Right buttons */}
-          <Nav>
-            <Nav.Link as={Link} to="/login">Login</Nav.Link>
-            <Button as={Link} to="/register" variant="success">
+          <Nav className="right_nav">
+            <Nav.Link>Login</Nav.Link>
+            <Button  variant="success" className="register">
               Register
             </Button>
           </Nav>

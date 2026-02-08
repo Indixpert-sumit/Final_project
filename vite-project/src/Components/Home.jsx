@@ -1,7 +1,6 @@
 import './../sass/Header.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Headerimg from './../assets/Header.png'
 import ListGroup from 'react-bootstrap/ListGroup';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import breifcase from './../assets/breifcase.png'
@@ -34,6 +33,7 @@ import news1 from './../assets/news1.png'
 import profile1 from './../assets/profile1.png'
 import quotes from './../assets/quotes.png'
 import jobbag from './../assets/jobbag.png'
+import homeimg from './../assets/homeimg.png'
 
 
 
@@ -44,9 +44,8 @@ const Header = () => {
   return (
 
 
-    <div className="headerimg"
-
-      style={{ backgroundImage: `url(${Headerimg})` }}>
+    <div className="headerimg" >
+      <img src={homeimg} alt=""  width={1351} height={500}/>
       <h1 className='dreamjob'>Find Your Dream Job Today!</h1>
       <p className='description'>Connecting Talent with Opportunity: Your Gateway to Career Success</p>
 
@@ -59,21 +58,24 @@ const Header = () => {
         </Button>
       </ListGroup>
       <section className="stats">
-        <div className="stat-card">
+        <div className="image_inside_text">
           <img src={breifcase} alt="Jobs" />
           <b>25,850</b>
-          <div>Jobs</div>
+          
         </div>
-        <div className="stat-card">
+        <div className='image_job'>Jobs</div>
+        <div className="image_inside_text2">
           <img src={collabeicon} alt="Candidates" />
           <b>10,250</b>
-          <div>Candidates</div>
         </div>
-        <div className="stat-card">
+                  <div className='img_Candidates'>Candidates</div>
+
+        <div className="image_inside_text3">
           <img src={officeimg} alt="Companies" />
           <b>18,400</b>
-          <div>Companies</div>
         </div>
+                  <div className='img_companies'>Companies</div>
+
       </section>
 
       <div>
@@ -93,7 +95,7 @@ const Header = () => {
 
         <p className='paragraph'>At eu lobortis pretium tincidunt amet lacus ut aenean aliquetc <span className='veiw'> <b>Veiw aLL</b></span></p>
         <div className="job-card">
-
+<Container>
           <div className="job-top">
             <p className="minutes">10 min ago</p>
             <img className="wishlist" src={wishlist} alt="wishlist" />
@@ -132,10 +134,10 @@ const Header = () => {
 
             <Button className="job_detail1">Job Details</Button>
           </div>
-
+</Container>
         </div>
 
-
+<Container>
 
         <div className="job-top">
           <p className="minutes">12 min ago</p>
@@ -173,8 +175,10 @@ const Header = () => {
             Los- Angeles, USA    </span>
 
           <Button className="job_detail1">Job Details</Button>
+          
         </div>
-
+</Container>
+<Container>
 
         <div className="job-top">
           <p className="minutes">15 min ago</p>
@@ -214,6 +218,8 @@ const Header = () => {
 
           <Button className="job_detail1">Job Details</Button>
         </div>
+        </Container>
+        <Container>
 
         <div className="job-top">
           <p className="minutes">24 min ago</p>
@@ -253,6 +259,9 @@ const Header = () => {
 
           <Button className="job_detail1">Job Details</Button>
         </div>
+        </Container>
+
+        <Container>
         <div className="job-top">
           <p className="minutes">26 min ago</p>
           <img className="wishlist" src={wishlist} alt="wishlist" />
@@ -291,6 +300,7 @@ const Header = () => {
 
           <Button className="job_detail1">Job Details</Button>
         </div>
+        </Container>
 
 
         <div className='hero_section2'>

@@ -1,19 +1,50 @@
-.job_details{
+.job_details {
     text-align: center;
     background-color: black;
     color: aliceblue;
     padding-bottom: 50px;
-}.job-left{
+}.job_detail1{
+    background-color: rgb(85, 181, 181);
+border: none;
+}
+
+.job-left {
     margin-top: 20px;
 
-}.professional_para{
+}
+
+.professional_para {
     margin-top: 20px;
-}.button_group{
+}
+
+.button_group {
     border-radius: 10px;
     color: rgb(255, 253, 253);
-    background-color: rgb(158, 210, 192);
+    background-color: rgb(160, 209, 192);
     border: none;
     margin-left: 20px;
-}.last_card{
+}
+
+.last_card {
     background-color: rgb(255, 255, 255);
+}
+
+.right_card {
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 28px;
+    text-align: start;
+}.job_title{
+        margin-left: 20px;
+
+}
+.overveiw_p{
+    margin-left: 40px;
+}.job_message{
+    margin-top: 20px;
+}.send_message{
+    margin-right: 90px;
+    margin-top: 20px;
+    background-color: rgb(85, 181, 181);
+    border: none;
 }

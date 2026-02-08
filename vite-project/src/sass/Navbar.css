@@ -11,6 +11,7 @@
   color: #ccc !important;
 }
 
-.nav-link:hover {
-  color: #fff !important;
+.register{
+  background-color: rgb(120, 189, 156);
+  border: none;
 }

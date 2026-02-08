@@ -1,56 +1,94 @@
 .headerimg {
-  height: 500px;
+  position: relative;
+  width: 100p;
+  height: 782px;
+}
+
+.header-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .dreamjob {
-  color: aliceblue;
-  padding-top: 100px;
-  text-align: center;
-  ;
+  top: 20%;
+  left: 30%;
+  color: #fff;
+  position: absolute;
 }
 
 .description {
-  color: aliceblue;
-  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  color: #fff;
 
-
-}
-
-.title {
-  color: aliceblue;
-  text-align: center;
 }
 
 .listgroup_ {
-  justify-content: center;
-
-
-
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  color: #fff;
 
 }
 
-.stats {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-}
-
-.stat-card {
-  text-align: center;
+.image_inside_text {
+  position: absolute;
   margin-top: 50px;
 
+  display: flex;
+  top: 40%;
+  left: 30%;
+  color: #fff;
 }
 
-.stat-card b {
-  display: inline;
-  font-size: 24px;
-  color: aliceblue;
+.image_inside_text2 {
+  position: absolute;
+  margin-top: 50px;
+
+  display: flex;
+  top: 40%;
+  left: 45%;
+  color: #fff;
 }
 
-.stat-card div {
-  font-size: 16px;
-  color: #fff8f8;
+.image_inside_text3 {
+  margin-top: 50px;
+  position: absolute;
+  display: flex;
+  top: 40%;
+  left: 60%;
+  color: #fff;
 }
+
+.image_job {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  color: #fff;
+
+}
+
+.img_Candidates {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+
+
+}
+
+.img_companies {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  color: #fff;
+}
+
+
+
+
 
 .own_container {
   display: flex;
@@ -111,14 +149,12 @@ button.search-job {
   padding: 16px;
 }
 
-/* top row */
 .job-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* middle row */
 .forward {
   display: flex;
   gap: 12px;
@@ -129,7 +165,6 @@ button.search-job {
   height: 45px;
 }
 
-/* bottom row */
 .job-info {
   display: flex;
   flex-wrap: wrap;
@@ -143,19 +178,16 @@ button.search-job {
   gap: 6px;
 }
 
-/* button */
 .job_detail1 {
   margin-left: auto;
   white-space: nowrap;
-}.minutes{
+}
+
+.minutes {
   color: #1abc9c;
 }
 
-@media (max-width: 576px) {
-  .job_detail1 {
-    width: 100%;
-  }
-}
+
 
 
 .media {
@@ -177,6 +209,7 @@ button.search-job {
 
 .hero-section_heading {
   text-align: center;
+  margin-top: 50px;
 }
 
 .hero_section_paragraph {
@@ -250,8 +283,9 @@ button.search-job {
 }
 
 .hero-img img {
-  width: 350px;
-  height: 350px;
+  width: 100%;
+  max-width: 300px;
+     
   object-fit: cover;
   border-radius: 12px;
 }
@@ -371,16 +405,11 @@ button.search-job {
   border-radius: 50%;
 }
 
-
-
-
 .news_ {
-   margin-left: 10px;
-
+  margin-left: 10px;
 }
 
 .news_2 {
-
   margin-left: 60px;
 }
 
@@ -415,17 +444,19 @@ button.search-job {
   margin-left: 470px;
 }
 
-.readmore{
+.readmore {
   margin-left: 100px;
   color: #3bb39b;
 }
 
 .readmore2 {
   margin-left: 500px;
-    color: #1abc9c;
+  color: #1abc9c;
 
 
-}@media (max-width: 576px) {
+}
+
+@media (max-width: 576px) {
   .blog-section {
     margin: 20px;
   }
@@ -439,6 +470,7 @@ button.search-job {
     text-align: center;
   }
 }
+
 .footer {
   background: #0b0b0b;
   color: #ccc;
@@ -474,9 +506,7 @@ button.search-job {
   cursor: pointer;
 }
 
-.footer-col ul li:hover {
-  color: #2bb3a3;
-}
+
 
 .newsletter input {
   width: 100%;
@@ -538,4 +568,3 @@ button.search-job {
     text-align: center;
   }
 }
-
