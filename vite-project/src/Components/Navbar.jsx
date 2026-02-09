@@ -11,9 +11,8 @@ import { Link } from "react-router-dom";
 
 const Navbar_ = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" className="py-3">
+    <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
-        {/* Left logo */}
         <Navbar.Brand as={Link} to="/" className="fw-bold">
           <img src={bag} alt="logo" /> Job Portal
         </Navbar.Brand>
@@ -21,15 +20,13 @@ const Navbar_ = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
         <Navbar.Collapse id="basic-navbar-nav">
-          {/* Center menu */}
           <Nav className="mx-auto gap-4">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to="/job">Jobs</Nav.Link>
+            <Nav.Link as={Link} to="/jobspage">Jobs</Nav.Link>
             <Nav.Link as={Link} to="/about">About Us</Nav.Link>
             <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
           </Nav>
 
-          {/* Right buttons */}
           <Nav className="right_nav">
             <Nav.Link>Login</Nav.Link>
             <Button  variant="success" className="register">

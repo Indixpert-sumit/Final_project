@@ -550,7 +550,6 @@ button.search-job {
   color: #2bb3a3;
 }
 
-/* Responsive */
 @media (max-width: 900px) {
   .footer-container {
     grid-template-columns: 1fr 1fr;

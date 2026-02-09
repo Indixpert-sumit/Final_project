@@ -278,7 +278,6 @@ Nunc sed a nisl purus. Nibh dis faucibus proin lacus tristique. Sit congue non v
        <footer className="footer">
                  <div className="footer-container">
        
-                   {/* Column 1 */}
                    <div className="footer-col">
                      <h3 className="footer-logo"><img src={jobbag} alt="" /> Job</h3>
                      <p>
@@ -287,7 +286,6 @@ Nunc sed a nisl purus. Nibh dis faucibus proin lacus tristique. Sit congue non v
                      </p>
                    </div>
        
-                   {/* Column 2 */}
                    <div className="footer-col">
                      <h4>Company</h4>
                      <ul>
@@ -299,7 +297,6 @@ Nunc sed a nisl purus. Nibh dis faucibus proin lacus tristique. Sit congue non v
                      </ul>
                    </div>
        
-                   {/* Column 3 */}
                    <div className="footer-col">
                      <h4>Job Categories</h4>
                      <ul>
@@ -311,7 +308,6 @@ Nunc sed a nisl purus. Nibh dis faucibus proin lacus tristique. Sit congue non v
                      </ul>
                    </div>
        
-                   {/* Column 4 */}
                    <div className="footer-col">
                      <h4>Newsletter</h4>
                      <p>Eu nunc pretium vitae platea. Non netus elementum vulputate.</p>
@@ -323,7 +319,6 @@ Nunc sed a nisl purus. Nibh dis faucibus proin lacus tristique. Sit congue non v
        
                  </div>
        
-                 {/* Bottom Bar */}
                  <div className="footer-bottom">
                    <p>© Copyright Job Portal 2024. Designed by Figma.guru</p>
                    <div className="footer-links">

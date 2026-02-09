@@ -33,7 +33,10 @@ import news1 from './../assets/news1.png'
 import profile1 from './../assets/profile1.png'
 import quotes from './../assets/quotes.png'
 import jobbag from './../assets/jobbag.png'
-import homeimg from './../assets/homeimg.png'
+import headerfinal from './../assets/headerfinal.png'
+import corporatelogo from './../assets/corporatelogo.png'
+
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -41,11 +44,13 @@ import homeimg from './../assets/homeimg.png'
 
 
 const Header = () => {
+  const navigate = useNavigate();
+
   return (
 
 
     <div className="headerimg" >
-      <img src={homeimg} alt=""  width={1351} height={500}/>
+      <img src={headerfinal} alt="" width={1351} height={500} />
       <h1 className='dreamjob'>Find Your Dream Job Today!</h1>
       <p className='description'>Connecting Talent with Opportunity: Your Gateway to Career Success</p>
 
@@ -61,20 +66,20 @@ const Header = () => {
         <div className="image_inside_text">
           <img src={breifcase} alt="Jobs" />
           <b>25,850</b>
-          
+
         </div>
         <div className='image_job'>Jobs</div>
         <div className="image_inside_text2">
           <img src={collabeicon} alt="Candidates" />
           <b>10,250</b>
         </div>
-                  <div className='img_Candidates'>Candidates</div>
+        <div className='img_Candidates'>Candidates</div>
 
         <div className="image_inside_text3">
           <img src={officeimg} alt="Companies" />
           <b>18,400</b>
         </div>
-                  <div className='img_companies'>Companies</div>
+        <div className='img_companies'>Companies</div>
 
       </section>
 
@@ -95,18 +100,61 @@ const Header = () => {
 
         <p className='paragraph'>At eu lobortis pretium tincidunt amet lacus ut aenean aliquetc <span className='veiw'> <b>Veiw aLL</b></span></p>
         <div className="job-card">
-<Container>
+          <Container>
+            <div className="job-top">
+              <p className="minutes">10 min ago</p>
+              <img className="wishlist" src={wishlist} alt="wishlist" />
+            </div>
+
+            <div className="forward">
+              <img src={forward} alt="company logo" />
+              <div>
+                <b>Forward Security Director</b>
+                <p className="descriptio_forwrd">
+                  Bauch, Schuppe and Schulist Co
+                </p>
+              </div>
+            </div>
+
+            <div className="job-info">
+              <span>
+                <img src={breifcase} alt="" height={30} />
+                Hotels & Tourism
+              </span>
+
+              <span>
+                <img src={clock} alt="" />
+                Full time
+              </span>
+
+              <span>
+                <img src={wallet} alt="" />
+                $40000-$42000
+              </span>
+
+              <span>
+                <img src={map} alt="" />
+                New York, USA
+              </span>
+
+              <Button className="job_detail1" onClick={() => navigate("/jobdetail")}>Job Details</Button>
+            </div>
+          </Container>
+        </div>
+
+        <Container>
+
           <div className="job-top">
-            <p className="minutes">10 min ago</p>
+            <p className="minutes">12 min ago</p>
             <img className="wishlist" src={wishlist} alt="wishlist" />
           </div>
 
           <div className="forward">
-            <img src={forward} alt="company logo" />
+            <img src={regional} alt="company logo" />
             <div>
-              <b>Forward Security Director</b>
+              <b>Regional Creative Facilitator  </b>
               <p className="descriptio_forwrd">
-                Bauch, Schuppe and Schulist Co
+                Wisozk - Becker Co
               </p>
             </div>
           </div>
@@ -114,7 +162,48 @@ const Header = () => {
           <div className="job-info">
             <span>
               <img src={breifcase} alt="" height={30} />
-              Hotels & Tourism
+              Media
+            </span>
+
+            <span>
+              <img src={clock} alt="" />
+              Part time
+            </span>
+
+            <span>
+              <img src={wallet} alt="" />
+              $28000-$32000
+            </span>
+
+            <span>
+              <img src={map} alt="" />
+              Los- Angeles, USA    </span>
+
+            <Button className="job_detail1" onClick={() => navigate("/regional_detail")}>Job Details</Button>
+
+          </div>
+        </Container>
+        <Container>
+
+          <div className="job-top">
+            <p className="minutes">15 min ago</p>
+            <img className="wishlist" src={wishlist} alt="wishlist" />
+          </div>
+
+          <div className="forward">
+            <img src={internal} alt="company logo" />
+            <div>
+              <b>Internal Integration Planner  </b>
+              <p className="descriptio_forwrd">
+                Mraz, Quigley and Feest Inc.
+              </p>
+            </div>
+          </div>
+
+          <div className="job-info">
+            <span>
+              <img src={breifcase} alt="" height={30} />
+              Construction
             </span>
 
             <span>
@@ -124,182 +213,98 @@ const Header = () => {
 
             <span>
               <img src={wallet} alt="" />
-              $40000-$42000
+              $28000-$32000
             </span>
 
             <span>
               <img src={map} alt="" />
-              New York, USA
+              Los- Angeles, USA
             </span>
 
-            <Button className="job_detail1">Job Details</Button>
+            <Button className="job_detail1"  onClick={() => navigate("/internal_detail")}>Job Details</Button>
           </div>
-</Container>
-        </div>
-
-<Container>
-
-        <div className="job-top">
-          <p className="minutes">12 min ago</p>
-          <img className="wishlist" src={wishlist} alt="wishlist" />
-        </div>
-
-        <div className="forward">
-          <img src={regional} alt="company logo" />
-          <div>
-            <b>Regional Creative Facilitator  </b>
-            <p className="descriptio_forwrd">
-              Wisozk - Becker Co
-            </p>
-          </div>
-        </div>
-
-        <div className="job-info">
-          <span>
-            <img src={breifcase} alt="" height={30} />
-            Media
-          </span>
-
-          <span>
-            <img src={clock} alt="" />
-            Part time
-          </span>
-
-          <span>
-            <img src={wallet} alt="" />
-            $28000-$32000
-          </span>
-
-          <span>
-            <img src={map} alt="" />
-            Los- Angeles, USA    </span>
-
-          <Button className="job_detail1">Job Details</Button>
-          
-        </div>
-</Container>
-<Container>
-
-        <div className="job-top">
-          <p className="minutes">15 min ago</p>
-          <img className="wishlist" src={wishlist} alt="wishlist" />
-        </div>
-
-        <div className="forward">
-          <img src={internal} alt="company logo" />
-          <div>
-            <b>Internal Integration Planner  </b>
-            <p className="descriptio_forwrd">
-              Mraz, Quigley and Feest Inc.
-            </p>
-          </div>
-        </div>
-
-        <div className="job-info">
-          <span>
-            <img src={breifcase} alt="" height={30} />
-            Construction
-          </span>
-
-          <span>
-            <img src={clock} alt="" />
-            Full time
-          </span>
-
-          <span>
-            <img src={wallet} alt="" />
-            $28000-$32000
-          </span>
-
-          <span>
-            <img src={map} alt="" />
-            Los- Angeles, USA
-          </span>
-
-          <Button className="job_detail1">Job Details</Button>
-        </div>
         </Container>
         <Container>
 
-        <div className="job-top">
-          <p className="minutes">24 min ago</p>
-          <img className="wishlist" src={wishlist} alt="wishlist" />
-        </div>
-
-        <div className="forward">
-          <img src={district} alt="company logo" />
-          <div>
-            <b>District Intranet Director  </b>
-            <p className="descriptio_forwrd">
-              VonRueden - Weber Co
-            </p>
+          <div className="job-top">
+            <p className="minutes">24 min ago</p>
+            <img className="wishlist" src={wishlist} alt="wishlist" />
           </div>
-        </div>
 
-        <div className="job-info">
-          <span>
-            <img src={breifcase} alt="" height={30} />
-            Commerce
-          </span>
+          <div className="forward">
+            <img src={district} alt="company logo" />
+            <div>
+              <b>District Intranet Director  </b>
+              <p className="descriptio_forwrd">
+                VonRueden - Weber Co
+              </p>
+            </div>
+          </div>
 
-          <span>
-            <img src={clock} alt="" />
-            Full time
-          </span>
+          <div className="job-info">
+            <span>
+              <img src={breifcase} alt="" height={30} />
+              Commerce
+            </span>
 
-          <span>
-            <img src={wallet} alt="" />
-            $42000-$48000
-          </span>
+            <span>
+              <img src={clock} alt="" />
+              Full time
+            </span>
 
-          <span>
-            <img src={map} alt="" />
-            Florida, USA
-          </span>
+            <span>
+              <img src={wallet} alt="" />
+              $42000-$48000
+            </span>
 
-          <Button className="job_detail1">Job Details</Button>
-        </div>
+            <span>
+              <img src={map} alt="" />
+              Florida, USA
+            </span>
+
+            <Button className="job_detail1"  onClick={() => navigate("/district_detail")}>Job Details</Button>
+          </div>
         </Container>
 
         <Container>
-        <div className="job-top">
-          <p className="minutes">26 min ago</p>
-          <img className="wishlist" src={wishlist} alt="wishlist" />
-        </div>
-
-        <div className="forward">
-          <img src={district} alt="company logo" />
-          <div>
-            <b>Corporate Tactics Facilitator  </b>
-            <p className="descriptio_forwrd">
-              Cormier, Turner and Flatley Inc
-            </p>
+          <div className="job-top">
+            <p className="minutes">26 min ago</p>
+            <img className="wishlist" src={wishlist} alt="wishlist" />
           </div>
-        </div>
 
-        <div className="job-info">
-          <span>
-            <img src={breifcase} alt="" height={30} />
-            Commerce
-          </span>
+          <div className="forward">
+            <img src={corporatelogo} alt="company logo" />
+            <div>
+              <b>Corporate Tactics Facilitator  </b>
+              <p className="descriptio_forwrd">
+                Cormier, Turner and Flatley Inc
+              </p>
+            </div>
+          </div>
 
-          <span>
-            <img src={clock} alt="" />
-            Full time
-          </span>
+          <div className="job-info">
+            <span>
+              <img src={breifcase} alt="" height={30} />
+              Commerce
+            </span>
 
-          <span>
-            <img src={wallet} alt="" />
-            $38000-$40000
-          </span>
+            <span>
+              <img src={clock} alt="" />
+              Full time
+            </span>
 
-          <span>
-            <img src={map} alt="" />
-            Boston, USA
-          </span>
+            <span>
+              <img src={wallet} alt="" />
+              $38000-$40000
+            </span>
 
-          <Button className="job_detail1">Job Details</Button>
-        </div>
+            <span>
+              <img src={map} alt="" />
+              Boston, USA
+            </span>
+
+            <Button className="job_detail1"  onClick={() => navigate("/corporate_details")}>Job Details</Button>
+          </div>
         </Container>
 
 

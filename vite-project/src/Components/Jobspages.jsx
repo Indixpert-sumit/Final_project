@@ -10,13 +10,14 @@ import map from './../assets/map.png'
 import regional from './../assets/regional.png'
 import internal from './../assets/internal.png'
 import district from './../assets/district.png'
-import corporate from './../assets/corporate.png'
 import forwardlogo from './../assets/forwardlogo.png'
 import instagram from './../assets/instagram.png'
 import tesla from './../assets/tesla.png'
 import md from './../assets/md.png'
 import apple from './../assets/apple.png'
 import jobbag from './../assets/jobbag.png'
+import corporatelogo from './../assets/corporatelogo.png'
+
 import { useNavigate } from "react-router-dom";
 
 
@@ -213,7 +214,7 @@ const JobsPage = () => {
                       New York, USA
                     </span>
 
-                    <Button className="jobdetail ms-sm-auto">
+                    <Button className="jobdetail ms-sm-auto"  onClick={() => navigate("/forward_details")}>
                       Job Details
                     </Button>
                   </div>
@@ -266,7 +267,7 @@ const JobsPage = () => {
                       Los- Angeles, USA
                     </span>
 
-                    <Button className="jobdetail ms-sm-auto">
+                    <Button className="jobdetail ms-sm-auto"   onClick={() => navigate("/regional_detail")}>
                       Job Details
                     </Button>
                   </div>
@@ -320,7 +321,7 @@ const JobsPage = () => {
                       Texas, USA
                     </span>
 
-                    <Button className="jobdetail ms-sm-auto">
+                    <Button className="jobdetail ms-sm-auto"  onClick={() => navigate("/internal_detail")}>
                       Job Details
                     </Button>
                   </div>
@@ -374,7 +375,7 @@ const JobsPage = () => {
                       Florida, USA
                     </span>
 
-                    <Button className="jobdetail ms-sm-auto">
+                    <Button className="jobdetail ms-sm-auto"   onClick={() => navigate("/district_detail")}>
                       Job Details
                     </Button>
                   </div>
@@ -393,7 +394,7 @@ const JobsPage = () => {
 
                   <div className="d-flex align-items-start mb-3">
                     <img
-                      src={corporate}
+                      src={corporatelogo}
                       alt="company logo"
                       height={45}
                       className="me-3"
@@ -428,7 +429,7 @@ const JobsPage = () => {
                       Boston, USA
                     </span>
 
-                    <Button className="jobdetail ms-sm-auto">
+                    <Button className="jobdetail ms-sm-auto"  onClick={() => navigate("/corporate_details")}>
                       Job Details
                     </Button>
                   </div>
@@ -482,7 +483,7 @@ const JobsPage = () => {
                       Boston, USA
                     </span>
 
-                    <Button className="jobdetail ms-sm-auto">
+                    <Button className="jobdetail ms-sm-auto"  onClick={() => navigate("/corporate_details")} >
                       Job Details
                     </Button>
                   </div>
@@ -493,13 +494,12 @@ const JobsPage = () => {
                 <section className="">
                   <Pagination size="md">
                     <Pagination.Item className="pagenation_one"
-                      onClick={() => navigate("/job")}
                     >
                       1
                     </Pagination.Item>
 
                     <Pagination.Item className="pagenation2"
-                      onClick={() => navigate("/jobdetail")}
+                    
                     >
                       2
                     </Pagination.Item>
@@ -511,7 +511,6 @@ const JobsPage = () => {
             </Row>
           </Col>
 
-          {/* last container */}
 
           <Container className="topcompany">
             <h2>Top company</h2>
@@ -533,7 +532,6 @@ const JobsPage = () => {
                 </Card>
               </Col>
 
-              {/* repeat 3 more times */}
               <Col md={3} sm={6} xs={12}>
                 <Card className="h-100">
                   <Card.Img />
@@ -582,7 +580,6 @@ const JobsPage = () => {
           <footer className="footer">
             <div className="footer-container">
 
-              {/* Column 1 */}
               <div className="footer-col">
                 <h3 className="footer-logo"><img src={jobbag} alt="" /> Job</h3>
                 <p>
@@ -591,7 +588,6 @@ const JobsPage = () => {
                 </p>
               </div>
 
-              {/* Column 2 */}
               <div className="footer-col">
                 <h4>Company</h4>
                 <ul>
@@ -603,7 +599,6 @@ const JobsPage = () => {
                 </ul>
               </div>
 
-              {/* Column 3 */}
               <div className="footer-col">
                 <h4>Job Categories</h4>
                 <ul>
@@ -615,7 +610,6 @@ const JobsPage = () => {
                 </ul>
               </div>
 
-              {/* Column 4 */}
               <div className="footer-col">
                 <h4>Newsletter</h4>
                 <p>Eu nunc pretium vitae platea. Non netus elementum vulputate.</p>
@@ -627,7 +621,6 @@ const JobsPage = () => {
 
             </div>
 
-            {/* Bottom Bar */}
             <div className="footer-bottom">
               <p>© Copyright Job Portal 2024. Designed by Figma.guru</p>
               <div className="footer-links">
