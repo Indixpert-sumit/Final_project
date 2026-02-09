@@ -221,7 +221,7 @@ const Header = () => {
               Los- Angeles, USA
             </span>
 
-            <Button className="job_detail1"  onClick={() => navigate("/internal_detail")}>Job Details</Button>
+            <Button className="job_detail1" onClick={() => navigate("/internal_detail")}>Job Details</Button>
           </div>
         </Container>
         <Container>
@@ -262,7 +262,7 @@ const Header = () => {
               Florida, USA
             </span>
 
-            <Button className="job_detail1"  onClick={() => navigate("/district_detail")}>Job Details</Button>
+            <Button className="job_detail1" onClick={() => navigate("/district_detail")}>Job Details</Button>
           </div>
         </Container>
 
@@ -296,14 +296,14 @@ const Header = () => {
             <span>
               <img src={wallet} alt="" />
               $38000-$40000
-            </span> 
+            </span>
 
             <span>
               <img src={map} alt="" />
               Boston, USA
             </span>
 
-            <Button className="job_detail1"  onClick={() => navigate("/corporate_details")}>Job Details</Button>
+            <Button className="job_detail1" onClick={() => navigate("/corporate_details")}>Job Details</Button>
           </div>
         </Container>
 

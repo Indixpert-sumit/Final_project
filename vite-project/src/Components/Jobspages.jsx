@@ -214,7 +214,7 @@ const JobsPage = () => {
                       New York, USA
                     </span>
 
-                    <Button className="jobdetail ms-sm-auto"  onClick={() => navigate("/forward_details")}>
+                    <Button className="jobdetail ms-sm-auto" onClick={() => navigate("/forward_details")}>
                       Job Details
                     </Button>
                   </div>
@@ -267,7 +267,7 @@ const JobsPage = () => {
                       Los- Angeles, USA
                     </span>
 
-                    <Button className="jobdetail ms-sm-auto"   onClick={() => navigate("/regional_detail")}>
+                    <Button className="jobdetail ms-sm-auto" onClick={() => navigate("/regional_detail")}>
                       Job Details
                     </Button>
                   </div>
@@ -321,7 +321,7 @@ const JobsPage = () => {
                       Texas, USA
                     </span>
 
-                    <Button className="jobdetail ms-sm-auto"  onClick={() => navigate("/internal_detail")}>
+                    <Button className="jobdetail ms-sm-auto" onClick={() => navigate("/internal_detail")}>
                       Job Details
                     </Button>
                   </div>
@@ -375,7 +375,7 @@ const JobsPage = () => {
                       Florida, USA
                     </span>
 
-                    <Button className="jobdetail ms-sm-auto"   onClick={() => navigate("/district_detail")}>
+                    <Button className="jobdetail ms-sm-auto" onClick={() => navigate("/district_detail")}>
                       Job Details
                     </Button>
                   </div>
@@ -429,7 +429,7 @@ const JobsPage = () => {
                       Boston, USA
                     </span>
 
-                    <Button className="jobdetail ms-sm-auto"  onClick={() => navigate("/corporate_details")}>
+                    <Button className="jobdetail ms-sm-auto" onClick={() => navigate("/corporate_details")}>
                       Job Details
                     </Button>
                   </div>
@@ -483,7 +483,7 @@ const JobsPage = () => {
                       Boston, USA
                     </span>
 
-                    <Button className="jobdetail ms-sm-auto"  onClick={() => navigate("/corporate_details")} >
+                    <Button className="jobdetail ms-sm-auto" onClick={() => navigate("/corporate_details")} >
                       Job Details
                     </Button>
                   </div>
@@ -499,7 +499,7 @@ const JobsPage = () => {
                     </Pagination.Item>
 
                     <Pagination.Item className="pagenation2"
-                    
+
                     >
                       2
                     </Pagination.Item>
@@ -512,7 +512,7 @@ const JobsPage = () => {
           </Col>
 
 
-          <Container className="topcompany"> 
+          <Container className="topcompany">
             <h2>Top company</h2>
             <p className="toppcompanyp">At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum</p>
             <Row>

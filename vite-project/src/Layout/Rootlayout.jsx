@@ -4,8 +4,8 @@ import { Outlet } from "react-router-dom";
 const Rootlayout = () => {
   return (
     <>
-          <Navbar_ />
-          
+      <Navbar_ />
+
       <Outlet />
     </>
   );

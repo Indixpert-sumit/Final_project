@@ -102,64 +102,64 @@ const Contact = () => {
 
             </section>
 
-             <footer className="footer">
-                      <div className="footer-container">
-            
-                        {/* Column 1 */}
-                        <div className="footer-col">
-                          <h3 className="footer-logo"><img src={jobbag} alt="" /> Job</h3>
-                          <p>
+            <footer className="footer">
+                <div className="footer-container">
+
+                    {/* Column 1 */}
+                    <div className="footer-col">
+                        <h3 className="footer-logo"><img src={jobbag} alt="" /> Job</h3>
+                        <p>
                             Quis enim pellentesque viverra tellus eget malesuada facilisis.
                             Congue nibh vivamus aliquet nunc mauris.
-                          </p>
-                        </div>
-            
-                        {/* Column 2 */}
-                        <div className="footer-col">
-                          <h4>Company</h4>
-                          <ul>
+                        </p>
+                    </div>
+
+                    {/* Column 2 */}
+                    <div className="footer-col">
+                        <h4>Company</h4>
+                        <ul>
                             <li>About Us</li>
                             <li>Our Team</li>
                             <li>Partners</li>
                             <li>For Candidates</li>
                             <li>For Employers</li>
-                          </ul>
-                        </div>
-            
-                        {/* Column 3 */}
-                        <div className="footer-col">
-                          <h4>Job Categories</h4>
-                          <ul>
+                        </ul>
+                    </div>
+
+                    {/* Column 3 */}
+                    <div className="footer-col">
+                        <h4>Job Categories</h4>
+                        <ul>
                             <li>Telecommunications</li>
                             <li>Hotels & Tourism</li>
                             <li>Construction</li>
                             <li>Education</li>
                             <li>Financial Services</li>
-                          </ul>
-                        </div>
-            
-                        {/* Column 4 */}
-                        <div className="footer-col">
-                          <h4>Newsletter</h4>
-                          <p>Eu nunc pretium vitae platea. Non netus elementum vulputate.</p>
-                          <div className="newsletter">
+                        </ul>
+                    </div>
+
+                    {/* Column 4 */}
+                    <div className="footer-col">
+                        <h4>Newsletter</h4>
+                        <p>Eu nunc pretium vitae platea. Non netus elementum vulputate.</p>
+                        <div className="newsletter">
                             <input type="email" placeholder="Email Address" />
                             <button>Subscribe now</button>
-                          </div>
                         </div>
-            
-                      </div>
-             
-                      {/* Bottom Bar */}
-                      <div className="footer-bottom">
-                        <p>© Copyright Job Portal 2024. Designed by Figma.guru</p>
-                        <div className="footer-links">
-                          <span>Privacy Policy</span>
-                          <span>Terms & Conditions</span>
-                        </div>
-                      </div>
-                    </footer>
-        </section> 
+                    </div>
+
+                </div>
+
+                {/* Bottom Bar */}
+                <div className="footer-bottom">
+                    <p>© Copyright Job Portal 2024. Designed by Figma.guru</p>
+                    <div className="footer-links">
+                        <span>Privacy Policy</span>
+                        <span>Terms & Conditions</span>
+                    </div>
+                </div>
+            </footer>
+        </section>
     )
 }
 

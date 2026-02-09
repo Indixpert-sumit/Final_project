@@ -1,11 +1,11 @@
-
-.jobs_heading{
-text-align: center;
-color: #ffffff;
-background-color: black;
-padding-bottom: 40px;
+.jobs_heading {
+    text-align: center;
+    color: #ffffff;
+    background-color: black;
+    padding-bottom: 40px;
 
 }
+
 .card {
     border-radius: 8px;
     border: 1px solid #e5e5e5;
@@ -15,7 +15,7 @@ padding-bottom: 40px;
 .card h6 {
     font-weight: 600;
     margin-bottom: 10px;
-} 
+}
 
 .form-check-label {
     font-size: 14px;
@@ -127,6 +127,8 @@ padding-bottom: 40px;
         align-items: flex-start;
         gap: 6px;
     }
-}.pagination{
+}
+
+.pagination {
     justify-content: center;
-} 
+}

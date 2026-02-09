@@ -21,7 +21,7 @@ import jobbag from './../../assets/jobbag.png'
 import corporatelogo from './../../assets/corporatelogo.png'
 
 
- 
+
 
 
 
@@ -44,7 +44,7 @@ const Districts_detail = () => {
           <div>
             <b>District Intranet Director</b>
             <p className="descriptio_forwrd">
-            Bauch, Schuppe and Schulist Co
+              Bauch, Schuppe and Schulist Co
             </p>
           </div>
         </div>

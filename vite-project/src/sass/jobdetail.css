@@ -3,9 +3,11 @@
     background-color: black;
     color: aliceblue;
     padding-bottom: 50px;
-}.job_detail1{
+}
+
+.job_detail1 {
     background-color: rgb(85, 181, 181);
-border: none;
+    border: none;
 }
 
 .job-left {
@@ -16,7 +18,7 @@ border: none;
 .professional_para {
     margin-top: 20px;
 }
- 
+
 .button_group {
     border-radius: 10px;
     color: rgb(255, 253, 253);
@@ -34,15 +36,22 @@ border: none;
     margin-right: 20px;
     margin-top: 28px;
     text-align: start;
-}.job_title{
-        margin-left: 20px;
+}
+
+.job_title {
+    margin-left: 20px;
 
 }
-.overveiw_p{
+
+.overveiw_p {
     margin-left: 40px;
-}.job_message{
+}
+
+.job_message {
     margin-top: 20px;
-}.send_message{
+}
+
+.send_message {
     margin-right: 90px;
     margin-top: 20px;
     background-color: rgb(85, 181, 181);

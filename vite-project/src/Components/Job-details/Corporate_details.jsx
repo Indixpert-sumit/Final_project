@@ -44,7 +44,7 @@ const Corporate_detail = () => {
           <div>
             <b>District Intranet Director</b>
             <p className="descriptio_forwrd">
-            Bauch, Schuppe and Schulist Co
+              Bauch, Schuppe and Schulist Co
             </p>
           </div>
         </div>
@@ -215,7 +215,7 @@ const Corporate_detail = () => {
                     <img src={clock} alt="" />
                     Full time
                   </span>
- 
+
                   <span>
                     <img src={wallet} alt="" />
                     $42000-$48000

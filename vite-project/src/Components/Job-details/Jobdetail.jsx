@@ -59,7 +59,7 @@ const Jobdetail = () => {
             Full time
           </span>
 
-          <span> 
+          <span>
             <img src={wallet} alt="" />
             $42000-$48000
           </span>
@@ -71,7 +71,7 @@ const Jobdetail = () => {
 
           <Button className="job_detail1">Job Details</Button>
         </div>
- 
+
 
       </Container>
       <Container className="my-5">

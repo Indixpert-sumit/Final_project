@@ -21,7 +21,7 @@ import jobbag from './../../assets/jobbag.png'
 import forward from './../../assets/forward.png'
 import corporatelogo from './../../assets/corporatelogo.png'
 
- 
+
 
 
 
@@ -45,7 +45,7 @@ const Forward_detail = () => {
           <div>
             <b>Forward Security Director  </b>
             <p className="descriptio_forwrd">
-            Bauch, Schuppe and Schulist Co
+              Bauch, Schuppe and Schulist Co
             </p>
           </div>
         </div>

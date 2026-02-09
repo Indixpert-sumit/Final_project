@@ -143,190 +143,190 @@ const About = () => {
       </section>
       <section>
         <div className='question'> <h1><b>Frequently Asked Questions</b></h1>
-        <p>At eu lobortis pretium tincidunt amet lacus ut aenean aliquet</p>
+          <p>At eu lobortis pretium tincidunt amet lacus ut aenean aliquet</p>
         </div>
-<div className='icon'>
-  <Accordion defaultActiveKey={null} className="custom-accordion">
-  <Accordion.Item eventKey="0">
-    <Accordion.Header>
-      <b>      01 Can i upload CV?
-</b>
-    </Accordion.Header>
-    <Accordion.Body>
-Nunc sed a nisl purus. Nibh dis faucibus proin lacus tristique. Sit congue non vitae odio sit erat in. Felis eu ultrices a sed massa. Commodo fringilla sed tempor risus laoreet ultricies ipsum. Habitasse morbi faucibus in iaculis lectus. Nisi enim feugiat enim volutpat. Sem quis viverra viverra odio mauris nunc     </Accordion.Body>
-  </Accordion.Item>
-</Accordion>
+        <div className='icon'>
+          <Accordion defaultActiveKey={null} className="custom-accordion">
+            <Accordion.Item eventKey="0">
+              <Accordion.Header>
+                <b>      01 Can i upload CV?
+                </b>
+              </Accordion.Header>
+              <Accordion.Body>
+                Nunc sed a nisl purus. Nibh dis faucibus proin lacus tristique. Sit congue non vitae odio sit erat in. Felis eu ultrices a sed massa. Commodo fringilla sed tempor risus laoreet ultricies ipsum. Habitasse morbi faucibus in iaculis lectus. Nisi enim feugiat enim volutpat. Sem quis viverra viverra odio mauris nunc     </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
 
-    {/* accordion 2 */}
-     <Accordion defaultActiveKey={null} className="custom-accordion">
-  <Accordion.Item eventKey="0">
-    <Accordion.Header>
-      <b>      02 How long will the recruitment process take?
-</b>
-    </Accordion.Header>
-    <Accordion.Body>
-Nunc sed a nisl purus. Nibh dis faucibus proin lacus tristique. Sit congue non vitae odio sit erat in. Felis eu ultrices a sed massa. Commodo fringilla sed tempor risus laoreet ultricies ipsum. Habitasse morbi faucibus in iaculis lectus. Nisi enim feugiat enim volutpat. Sem quis viverra viverra odio mauris nunc     </Accordion.Body>
-  </Accordion.Item>
-</Accordion>
-{/* accordion3 */}
- <Accordion defaultActiveKey={null}className="custom-accordion">
-  <Accordion.Item eventKey="0">
-    <Accordion.Header>
-      <b>      03 Do you recruit for Graduates, Apprentices and Students?
-</b>
-    </Accordion.Header>
-    <Accordion.Body>
-Nunc sed a nisl purus. Nibh dis faucibus proin lacus tristique. Sit congue non vitae odio sit erat in. Felis eu ultrices a sed massa. Commodo fringilla sed tempor risus laoreet ultricies ipsum. Habitasse morbi faucibus in iaculis lectus. Nisi enim feugiat enim volutpat. Sem quis viverra viverra odio mauris nunc     </Accordion.Body>
-  </Accordion.Item>
-</Accordion>
-{/* accordion4 */}
- <Accordion defaultActiveKey={null} className="custom-accordion">
-  <Accordion.Item eventKey="0">
-    <Accordion.Header>
-      <b>      04 What does the recruitment and selection process involve?
-</b>
-    </Accordion.Header>
-    <Accordion.Body>
-Nunc sed a nisl purus. Nibh dis faucibus proin lacus tristique. Sit congue non vitae odio sit erat in. Felis eu ultrices a sed massa. Commodo fringilla sed tempor risus laoreet ultricies ipsum. Habitasse morbi faucibus in iaculis lectus. Nisi enim feugiat enim volutpat. Sem quis viverra viverra odio mauris nunc     </Accordion.Body>
-  </Accordion.Item>
-</Accordion>
-{/* 5 */}
- <Accordion defaultActiveKey={null} className="custom-accordion">
-  <Accordion.Item eventKey="0">
-    <Accordion.Header>
-      <b>      05 Can I receive notifications for any future jobs that may interest me?
-</b>
-    </Accordion.Header>
-    <Accordion.Body>
-Nunc sed a nisl purus. Nibh dis faucibus proin lacus tristique. Sit congue non vitae odio sit erat in. Felis eu ultrices a sed massa. Commodo fringilla sed tempor risus laoreet ultricies ipsum. Habitasse morbi faucibus in iaculis lectus. Nisi enim feugiat enim volutpat. Sem quis viverra viverra odio mauris nunc     </Accordion.Body>
-  </Accordion.Item>
-</Accordion>
-</div>
-        
+          {/* accordion 2 */}
+          <Accordion defaultActiveKey={null} className="custom-accordion">
+            <Accordion.Item eventKey="0">
+              <Accordion.Header>
+                <b>      02 How long will the recruitment process take?
+                </b>
+              </Accordion.Header>
+              <Accordion.Body>
+                Nunc sed a nisl purus. Nibh dis faucibus proin lacus tristique. Sit congue non vitae odio sit erat in. Felis eu ultrices a sed massa. Commodo fringilla sed tempor risus laoreet ultricies ipsum. Habitasse morbi faucibus in iaculis lectus. Nisi enim feugiat enim volutpat. Sem quis viverra viverra odio mauris nunc     </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
+          {/* accordion3 */}
+          <Accordion defaultActiveKey={null} className="custom-accordion">
+            <Accordion.Item eventKey="0">
+              <Accordion.Header>
+                <b>      03 Do you recruit for Graduates, Apprentices and Students?
+                </b>
+              </Accordion.Header>
+              <Accordion.Body>
+                Nunc sed a nisl purus. Nibh dis faucibus proin lacus tristique. Sit congue non vitae odio sit erat in. Felis eu ultrices a sed massa. Commodo fringilla sed tempor risus laoreet ultricies ipsum. Habitasse morbi faucibus in iaculis lectus. Nisi enim feugiat enim volutpat. Sem quis viverra viverra odio mauris nunc     </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
+          {/* accordion4 */}
+          <Accordion defaultActiveKey={null} className="custom-accordion">
+            <Accordion.Item eventKey="0">
+              <Accordion.Header>
+                <b>      04 What does the recruitment and selection process involve?
+                </b>
+              </Accordion.Header>
+              <Accordion.Body>
+                Nunc sed a nisl purus. Nibh dis faucibus proin lacus tristique. Sit congue non vitae odio sit erat in. Felis eu ultrices a sed massa. Commodo fringilla sed tempor risus laoreet ultricies ipsum. Habitasse morbi faucibus in iaculis lectus. Nisi enim feugiat enim volutpat. Sem quis viverra viverra odio mauris nunc     </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
+          {/* 5 */}
+          <Accordion defaultActiveKey={null} className="custom-accordion">
+            <Accordion.Item eventKey="0">
+              <Accordion.Header>
+                <b>      05 Can I receive notifications for any future jobs that may interest me?
+                </b>
+              </Accordion.Header>
+              <Accordion.Body>
+                Nunc sed a nisl purus. Nibh dis faucibus proin lacus tristique. Sit congue non vitae odio sit erat in. Felis eu ultrices a sed massa. Commodo fringilla sed tempor risus laoreet ultricies ipsum. Habitasse morbi faucibus in iaculis lectus. Nisi enim feugiat enim volutpat. Sem quis viverra viverra odio mauris nunc     </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
+        </div>
+
       </section>
 
-    <section className="image-section">
-  <Container>
-    <Row>
-      <Col md={6}>
-        <div className="image-grid">
-          <img src={aboutlast1} alt="" className="img-large" />
-          <img src={aboutlast2} alt="" className="img-top" />
-          <img src={aboutlast2} alt="" className="img-bottom" />
+      <section className="image-section">
+        <Container>
+          <Row>
+            <Col md={6}>
+              <div className="image-grid">
+                <img src={aboutlast1} alt="" className="img-large" />
+                <img src={aboutlast2} alt="" className="img-top" />
+                <img src={aboutlast2} alt="" className="img-bottom" />
+              </div>
+
+            </Col>
+            <Col md={6} className="right-content">
+              <h2 className="main-title">
+                We’re Only Working <br /> With The Best
+              </h2>
+
+              <p className="desc">
+                Ultricies purus dolor viverra mi laoreet at cursus justo.
+                Ultricies purus diam egestas amet faucibus tempor blandit.
+              </p>
+
+              <Row className="icon-grid">
+                <Col sm={6} className="icon-item">
+                  <span ><img src={crown} alt="crown" /></span>
+                  <span>Quality Job</span>
+                </Col>
+
+                <Col sm={6} className="icon-item">
+                  <span ><img src={resume} alt="resume" /></span>
+                  <span>Resume builder</span>
+                </Col>
+
+                <Col sm={6} className="icon-item">
+                  <span ><img src={top} alt="top company batch" /></span>
+                  <span>Top Companies</span>
+                </Col>
+
+                <Col sm={6} className="icon-item">
+                  <span > <img src={first} alt="" /></span>
+                  <span>Top Talents</span>
+                </Col>
+              </Row>
+            </Col>
+
+          </Row>
+
+        </Container>
+      </section>
+      <section>
+        <div className='blog-section'>
+          <h1><b>News and Blog</b></h1>
+          <p className='blog-para'> Metus faucibus sed turpis lectus feugiat tincidunt. Rhoncus sed tristique in dolor</p>
+          <div>
+            <a href="#" className='veiw_all'>veiw all </a>
+          </div>
+
         </div>
-        
-      </Col>
-      <Col md={6} className="right-content">
-  <h2 className="main-title">
-    We’re Only Working <br /> With The Best
-  </h2>
+        <div >
 
-  <p className="desc">
-    Ultricies purus dolor viverra mi laoreet at cursus justo.
-    Ultricies purus diam egestas amet faucibus tempor blandit.
-  </p>
+          <img src={news1} alt="news_image" className="news_" />
 
-  <Row className="icon-grid">
-    <Col sm={6} className="icon-item">
-      <span ><img src={crown} alt="crown" /></span>
-      <span>Quality Job</span>
-    </Col>
+          <img src={news1} alt="news_image" className="news_2" />
 
-    <Col sm={6} className="icon-item">
-      <span ><img src={resume} alt="resume" /></span>
-      <span>Resume builder</span>
-    </Col>
+        </div>
+        <div className='blog-date'>
+          30 March 2024 <b className='date-2'>30 March 2024</b>
+        </div>
+        <div className='blog-content'> <b>Revitalizing Workplace Morale: Innovative Tactics for  <br />Boosting Employee Engagement in 2024</b> <b className='blog-descrpition'>How to avoid the top six most common job interview mistakes</b>  </div>
+        <div ><a href="#" className='readmore1'> Read more  </a><a href="" className='readmore2'> Read more </a></div>
+      </section>
+      <footer className="footer">
+        <div className="footer-container">
 
-    <Col sm={6} className="icon-item">
-      <span ><img src={top} alt="top company batch" /></span>
-      <span>Top Companies</span>
-    </Col>
+          <div className="footer-col">
+            <h3 className="footer-logo"><img src={jobbag} alt="" /> Job</h3>
+            <p>
+              Quis enim pellentesque viverra tellus eget malesuada facilisis.
+              Congue nibh vivamus aliquet nunc mauris.
+            </p>
+          </div>
 
-    <Col sm={6} className="icon-item">
-      <span > <img src={first} alt="" /></span>
-      <span>Top Talents</span>
-    </Col>
-  </Row>
-</Col>
+          <div className="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li>About Us</li>
+              <li>Our Team</li>
+              <li>Partners</li>
+              <li>For Candidates</li>
+              <li>For Employers</li>
+            </ul>
+          </div>
 
-    </Row>
-    
-  </Container>
-</section>
-  <section>
-          <div className='blog-section'>
-            <h1><b>News and Blog</b></h1>
-            <p className='blog-para'> Metus faucibus sed turpis lectus feugiat tincidunt. Rhoncus sed tristique in dolor</p>
-            <div>
-              <a href="#" className='veiw_all'>veiw all </a>
+          <div className="footer-col">
+            <h4>Job Categories</h4>
+            <ul>
+              <li>Telecommunications</li>
+              <li>Hotels & Tourism</li>
+              <li>Construction</li>
+              <li>Education</li>
+              <li>Financial Services</li>
+            </ul>
+          </div>
+
+          <div className="footer-col">
+            <h4>Newsletter</h4>
+            <p>Eu nunc pretium vitae platea. Non netus elementum vulputate.</p>
+            <div className="newsletter">
+              <input type="email" placeholder="Email Address" />
+              <button>Subscribe now</button>
             </div>
-
           </div>
-          <div >
 
-            <img src={news1} alt="news_image" className="news_" />
+        </div>
 
-            <img src={news1} alt="news_image" className="news_2" />
-
-          </div> 
-          <div className='blog-date'>
-            30 March 2024 <b className='date-2'>30 March 2024</b>
+        <div className="footer-bottom">
+          <p>© Copyright Job Portal 2024. Designed by Figma.guru</p>
+          <div className="footer-links">
+            <span>Privacy Policy</span>
+            <span>Terms & Conditions</span>
           </div>
-          <div className='blog-content'> <b>Revitalizing Workplace Morale: Innovative Tactics for  <br />Boosting Employee Engagement in 2024</b> <b className='blog-descrpition'>How to avoid the top six most common job interview mistakes</b>  </div>
-          <div ><a href="#" className='readmore1'> Read more  </a><a href="" className='readmore2'> Read more </a></div>
-        </section>
-       <footer className="footer">
-                 <div className="footer-container">
-       
-                   <div className="footer-col">
-                     <h3 className="footer-logo"><img src={jobbag} alt="" /> Job</h3>
-                     <p>
-                       Quis enim pellentesque viverra tellus eget malesuada facilisis.
-                       Congue nibh vivamus aliquet nunc mauris.
-                     </p>
-                   </div>
-       
-                   <div className="footer-col">
-                     <h4>Company</h4>
-                     <ul>
-                       <li>About Us</li>
-                       <li>Our Team</li>
-                       <li>Partners</li>
-                       <li>For Candidates</li>
-                       <li>For Employers</li>
-                     </ul>
-                   </div>
-       
-                   <div className="footer-col">
-                     <h4>Job Categories</h4>
-                     <ul>
-                       <li>Telecommunications</li>
-                       <li>Hotels & Tourism</li>
-                       <li>Construction</li>
-                       <li>Education</li>
-                       <li>Financial Services</li>
-                     </ul>
-                   </div>
-       
-                   <div className="footer-col">
-                     <h4>Newsletter</h4>
-                     <p>Eu nunc pretium vitae platea. Non netus elementum vulputate.</p>
-                     <div className="newsletter">
-                       <input type="email" placeholder="Email Address" />
-                       <button>Subscribe now</button>
-                     </div>
-                   </div>
-       
-                 </div>
-       
-                 <div className="footer-bottom">
-                   <p>© Copyright Job Portal 2024. Designed by Figma.guru</p>
-                   <div className="footer-links">
-                     <span>Privacy Policy</span>
-                     <span>Terms & Conditions</span>
-                   </div>
-                 </div>
-               </footer>
+        </div>
+      </footer>
 
     </section>
 
