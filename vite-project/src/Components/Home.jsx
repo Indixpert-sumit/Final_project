@@ -1,4 +1,4 @@
-import './../sass/Header.css'
+import './../sass/Home.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import ListGroup from 'react-bootstrap/ListGroup';
@@ -6,7 +6,7 @@ import { Button, Col, Container, Row } from 'react-bootstrap';
 import breifcase from './../assets/breifcase.png'
 import collabeicon from './../assets/collabeicon.png'
 import officeimg from './../assets/officeimg.png'
-import spotify from './../assets/spotify.png'
+import spotify from './../assets/spotify.png' 
 import slack from './../assets/slack.png'
 import adobe from './../assets/adobe.png'
 import asana from './../assets/asana.png'
