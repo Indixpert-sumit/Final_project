@@ -268,7 +268,7 @@ Nunc sed a nisl purus. Nibh dis faucibus proin lacus tristique. Sit congue non v
 
             <img src={news1} alt="news_image" className="news_2" />
 
-          </div>
+          </div> 
           <div className='blog-date'>
             30 March 2024 <b className='date-2'>30 March 2024</b>
           </div>

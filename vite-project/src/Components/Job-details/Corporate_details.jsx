@@ -215,7 +215,7 @@ const Corporate_detail = () => {
                     <img src={clock} alt="" />
                     Full time
                   </span>
-
+ 
                   <span>
                     <img src={wallet} alt="" />
                     $42000-$48000

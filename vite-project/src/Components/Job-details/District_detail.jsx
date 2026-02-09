@@ -21,7 +21,7 @@ import jobbag from './../../assets/jobbag.png'
 import corporatelogo from './../../assets/corporatelogo.png'
 
 
-
+ 
 
 
 

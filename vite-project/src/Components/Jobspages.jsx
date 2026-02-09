@@ -512,7 +512,7 @@ const JobsPage = () => {
           </Col>
 
 
-          <Container className="topcompany">
+          <Container className="topcompany"> 
             <h2>Top company</h2>
             <p className="toppcompanyp">At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum</p>
             <Row>

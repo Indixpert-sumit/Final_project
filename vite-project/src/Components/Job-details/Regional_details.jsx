@@ -228,7 +228,7 @@ const Regional_detail = () => {
                   </span>
 
                   <Button className="job_detail1">Job Details</Button>
-                </div>
+                </div> 
 
               </Card>
             </Container>

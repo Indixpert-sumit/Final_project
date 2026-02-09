@@ -149,7 +149,7 @@ const Contact = () => {
                         </div>
             
                       </div>
-            
+             
                       {/* Bottom Bar */}
                       <div className="footer-bottom">
                         <p>© Copyright Job Portal 2024. Designed by Figma.guru</p>
@@ -159,7 +159,7 @@ const Contact = () => {
                         </div>
                       </div>
                     </footer>
-        </section>
+        </section> 
     )
 }
 

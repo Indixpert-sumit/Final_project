@@ -33,7 +33,7 @@ const Navbar_ = () => {
               Register
             </Button>
           </Nav>
-        </Navbar.Collapse>
+        </Navbar.Collapse> 
       </Container>
     </Navbar>
   );

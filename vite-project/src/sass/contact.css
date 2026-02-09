@@ -89,7 +89,7 @@
 .form-row {
   display: flex;
   gap: 10px;
-}
+} 
 
 .contact-form button {
   background-color: #1abc9c;

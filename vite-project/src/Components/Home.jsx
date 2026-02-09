@@ -296,7 +296,7 @@ const Header = () => {
             <span>
               <img src={wallet} alt="" />
               $38000-$40000
-            </span>
+            </span> 
 
             <span>
               <img src={map} alt="" />

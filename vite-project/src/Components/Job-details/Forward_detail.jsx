@@ -21,7 +21,7 @@ import jobbag from './../../assets/jobbag.png'
 import forward from './../../assets/forward.png'
 import corporatelogo from './../../assets/corporatelogo.png'
 
-
+ 
 
 
 
