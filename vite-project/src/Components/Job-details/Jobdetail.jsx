@@ -62,7 +62,7 @@ const Jobdetail = () => {
           <span>
             <img src={wallet} alt="" />
             $42000-$48000
-          </span>
+          </span> 
 
           <span>
             <img src={map} alt="" />
