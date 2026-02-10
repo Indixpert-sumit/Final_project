@@ -339,11 +339,10 @@ const Jobdetail = () => {
         </Row>
 
       </Container>
-      {/* Footere */}
+      {/* Footer */}
       <footer className="footer">
         <div className="footer-container">
 
-          {/* Column 1 */}
           <div className="footer-col">
             <h3 className="footer-logo"><img src={jobbag} alt="" /> Job</h3>
             <p>
@@ -352,7 +351,6 @@ const Jobdetail = () => {
             </p>
           </div>
 
-          {/* Column 2 */}
           <div className="footer-col">
             <h4>Company</h4>
             <ul>
@@ -364,7 +362,6 @@ const Jobdetail = () => {
             </ul>
           </div>
 
-          {/* Column 3 */}
           <div className="footer-col">
             <h4>Job Categories</h4>
             <ul>
@@ -376,7 +373,6 @@ const Jobdetail = () => {
             </ul>
           </div>
 
-          {/* Column 4 */}
           <div className="footer-col">
             <h4>Newsletter</h4>
             <p>Eu nunc pretium vitae platea. Non netus elementum vulputate.</p>
@@ -388,7 +384,6 @@ const Jobdetail = () => {
 
         </div>
 
-        {/* Bottom Bar */}
         <div className="footer-bottom">
           <p>© Copyright Job Portal 2024. Designed by Figma.guru</p>
           <div className="footer-links">
