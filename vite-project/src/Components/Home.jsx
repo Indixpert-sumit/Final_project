@@ -50,7 +50,7 @@ const Header = () => {
 
 
     <div className="headerimg" >
-      <img src={headerfinal} alt="" width={1351} height={500} />
+      <img src={headerfinal} alt=""  height={782} width={1351}/>
       <h1 className='dreamjob'>Find Your Dream Job Today!</h1>
       <p className='description'>Connecting Talent with Opportunity: Your Gateway to Career Success</p>
 
@@ -83,7 +83,6 @@ const Header = () => {
 
       </section>
 
-      <div>
         <div className='own_container'>
           <img src={spotify} alt="spotify" className="spotify" />
           <img src={slack} alt="slack" className="slack" />
@@ -91,9 +90,6 @@ const Header = () => {
           <img src={asana} alt="asana" className="asana" />
           <img src={linear} alt="linear" className="linear" />
 
-
-
-        </div>
       </div>
       <div>
         <h1 className='aviable'> <b>Recent Jobs Aviable</b></h1>
